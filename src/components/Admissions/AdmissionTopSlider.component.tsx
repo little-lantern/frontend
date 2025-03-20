@@ -46,7 +46,6 @@ const AdmissionTopSliderComponent: React.FC = () => {
             swiperRef.current = swiper;
           }}
           onReachEnd={(swiper: SwiperClass) => {
-            console.log("Reached last slide. Stopping autoplay.");
             swiper.autoplay.stop();
           }}
           breakpoints={{

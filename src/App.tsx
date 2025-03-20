@@ -13,10 +13,12 @@ import WorkWithUsPage from "./pages/WorkWithUs.page";
 import ProgramOverviewPage from "./pages/ProgramOverview.page";
 import AdmissionsPage from "./pages/Admissions.page";
 import ActivityHubPage from "./pages/ActivityHub.page";
+import OurSpacePage from "./pages/OurSpace.page";
+import LearningPage from "./pages/Learning.page";
 const App: React.FC = () => {
   return (
-    <Router basename="/frontend">
-      {/* <Router> */}
+    // <Router basename="/frontend">
+    <Router>
       <Header />
       <main>
         <Routes>
@@ -28,6 +30,8 @@ const App: React.FC = () => {
           <Route path="/overview" element={<ProgramOverviewPage />} />
           <Route path="/admissions" element={<AdmissionsPage />} />
           <Route path="/activity" element={<ActivityHubPage />} />
+          <Route path="/our-space" element={<OurSpacePage />} />
+          <Route path="/learning" element={<LearningPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

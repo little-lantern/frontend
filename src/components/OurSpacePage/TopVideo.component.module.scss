@@ -1,0 +1,21 @@
+.container {
+  display: block;
+  margin: 50px 0px;
+  padding: 0px;
+  .videoBox {
+    display: block;
+    width: 100%;
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+    margin: 30px 0px;
+    padding: 0px;
+  }
+}

@@ -1,0 +1,67 @@
+.container {
+  display: block;
+  margin: 20px;
+  .imageSliderBox {
+    display: block;
+    position: relative;
+    .navButton {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      cursor: pointer;
+      background: none;
+      z-index: 2;
+      display: block;
+    }
+
+    .left {
+      left: 10px;
+    }
+
+    .right {
+      right: 10px;
+    }
+    .box {
+      position: relative;
+      border-radius: 20px;
+      .sliderImg {
+        display: block;
+        width: 100%;
+        border-radius: 20px;
+      }
+      .caption {
+        position: absolute;
+        left: 40px;
+        bottom: 40px;
+        color: #fff;
+        text-align: center;
+        font-family: "Chillax";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.75px;
+        border-radius: 20px;
+        background: #06b3db;
+        padding: 10px 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0px 10px;
+    .imageSliderBox {
+      .box {
+        .caption {
+          left: 20px;
+          bottom: 20px;
+          font-size: 18px;
+          padding: 10px 30px;
+        }
+      }
+    }
+  }
+}
