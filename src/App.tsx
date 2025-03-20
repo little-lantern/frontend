@@ -15,7 +15,7 @@ import AdmissionsPage from "./pages/Admissions.page";
 import ActivityHubPage from "./pages/ActivityHub.page";
 const App: React.FC = () => {
   return (
-    <Router basename="/little-lantern-website">
+    <Router basename="/frontend">
       {/* <Router> */}
       <Header />
       <main>
