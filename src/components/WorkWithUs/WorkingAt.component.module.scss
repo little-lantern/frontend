@@ -1,0 +1,133 @@
+.container {
+  display: block;
+  background: #fff;
+  padding: 40px 20px;
+  .title {
+    color: #222c5d;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -2.4px;
+    text-transform: uppercase;
+  }
+  .description {
+    color: #222c5d;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 25px 0px;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  .bannerBox {
+    display: flex;
+    align-items: center;
+    align-items: stretch;
+    border-radius: 20px;
+    .bannerImg {
+      display: block;
+      min-width: 580px;
+      max-width: 580px;
+      img {
+        display: block;
+        width: 100%;
+        border-radius: 20px 0px 0px 20px;
+      }
+    }
+    .bannerContent {
+      display: block;
+      padding: 0px 40px;
+      border-radius: 0px 20px 20px 0px;
+      background: #7771d7;
+      .box {
+        display: flex;
+        align-items: center;
+        border-bottom: solid 1px #ddd;
+        padding: 14px 2px;
+        .iconImg {
+          display: block;
+          max-width: 54px;
+          min-width: 54px;
+          margin-right: 14px;
+          img {
+            display: block;
+            width: 100%;
+          }
+        }
+        .itemContent {
+          display: block;
+          span {
+            color: #fff;
+            display: block;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+          }
+          p {
+            color: #fff;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+          }
+        }
+        &:last-child {
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 50px 0px 0px 0px;
+    .title {
+      display: none;
+    }
+    .description {
+      display: none;
+    }
+
+    .bannerBox {
+      flex-direction: column;
+      border-radius: 0px;
+      .bannerImg {
+        display: block;
+        min-width: 100%;
+        max-width: 100%;
+        img {
+          border-radius: 0;
+        }
+      }
+      .bannerContent {
+        padding: 0px 20px;
+        border-radius: 0px;
+        .box {
+          padding: 14px 0;
+          .iconImg {
+            max-width: 44px;
+            min-width: 44px;
+          }
+          .itemContent {
+            display: block;
+            span {
+              font-size: 20px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

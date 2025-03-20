@@ -1,0 +1,45 @@
+.container {
+  display: block;
+  padding: 40px 20px;
+  .mainTitle {
+    color: #222c5d;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -2.4px;
+    text-transform: uppercase;
+  }
+  .descriptions {
+    color: #606060;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 0px;
+  }
+  .tabsContainer {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 0px;
+    .mainTitle {
+      font-size: 32px;
+    }
+    .descriptions {
+      font-size: 14px;
+      padding: 10px;
+      .mobileHide {
+        display: none;
+      }
+    }
+    .tabsContainer {
+      display: block;
+    }
+  }
+}

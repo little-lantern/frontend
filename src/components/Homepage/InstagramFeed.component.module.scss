@@ -1,0 +1,100 @@
+.container {
+  display: block;
+  background: #fff;
+  padding: 60px 0px;
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  .mainTitle {
+    display: flex;
+    justify-content: center;
+    color: #222c5d;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -2.4px;
+    text-transform: uppercase;
+  }
+  .feedBox {
+    display: block;
+    max-width: 746px;
+    margin: 40px auto;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        display: block;
+
+        a {
+          display: block;
+          position: relative;
+          overflow: hidden;
+          img {
+            transition: transform 0.3s ease-in-out;
+          }
+          span {
+            position: absolute;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.3);
+          }
+        }
+        // a:hover img {
+        //   transform: scale(1.2);
+        // }
+        a:hover span {
+          display: flex;
+        }
+      }
+    }
+  }
+  .btnBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      color: #f57a3e;
+      text-align: center;
+      font-family: "Chillax", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      border-radius: 12px;
+      border: 2px solid #f57a3e;
+      background: #fff;
+      padding: 14px 30px;
+      text-decoration: none;
+      &:hover {
+        background: #f57a3e;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 20px;
+    .mainTitle {
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.96px;
+      text-align: center;
+    }
+    .feedBox {
+      display: block;
+      max-width: 100%;
+      margin: 28px auto;
+    }
+  }
+}

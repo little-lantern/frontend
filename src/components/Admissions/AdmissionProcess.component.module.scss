@@ -1,0 +1,179 @@
+.container {
+  display: block;
+  background: #222c5d;
+  padding: 70px 0px;
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  .mainTitle {
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -2.4px;
+    text-transform: uppercase;
+  }
+  .description {
+    text-align: center;
+    color: #fff;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 840px;
+    margin: 0px auto;
+    padding-top: 10px;
+  }
+  .subTitle {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.48px;
+    padding: 40px 0px;
+  }
+
+  .stepsWrapper {
+    display: flex;
+    justify-items: baseline;
+    align-items: center;
+    text-align: center;
+
+    .stepBox {
+      display: block;
+      position: relative;
+      cursor: pointer;
+
+      h4 {
+        text-align: center;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #fff;
+        font-size: 150px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: -7.5px;
+        color: transparent;
+      }
+
+      h5 {
+        color: #fff;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: -0.48px;
+        border-bottom: solid 1px #929292;
+        padding-bottom: 20px;
+      }
+
+      .details {
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        position: relative;
+        opacity: 0;
+        visibility: hidden;
+        margin-top: -1px;
+        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0;
+          height: 1px; /* Border thickness */
+          background-color: #fff; /* Border color */
+          transition: width 0.4s ease-in-out;
+        }
+      }
+
+      &:hover .details {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      &:hover .details::before {
+        width: 100%;
+      }
+    }
+  }
+  .btnBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    a {
+      color: #fff;
+      text-align: center;
+      font-family: "Chillax";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      display: inline-flex;
+      padding: 16px 20px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 12px;
+      background: #f57a3e;
+      text-decoration: none;
+      &:hover {
+        background: #fff;
+        color: #f57a3e;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 40px;
+    .mainTitle {
+      font-size: 32px;
+    }
+    .description {
+      font-size: 14px;
+    }
+    .subTitle {
+      font-size: 24px;
+    }
+
+    .stepsWrapper {
+      .stepBox {
+        h4 {
+          font-size: 110px;
+        }
+
+        h5 {
+          font-size: 18px;
+          .mobileHide {
+            display: none;
+          }
+        }
+
+        .details {
+          font-size: 14px;
+          opacity: 1;
+          visibility: visible;
+          &::before {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.container {
+  display: block;
+  background: #dedede;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  .wrapper {
+    max-width: 100%;
+    padding: 5px;
+    white-space: nowrap;
+    .marquee {
+      display: flex;
+      white-space: nowrap;
+      gap: 50px;
+      animation: marquee-scroll 20s linear infinite; // Adjust speed (10s)
+      will-change: transform;
+      &:hover {
+        animation-play-state: paused;
+      }
+      li {
+        font-size: 16px;
+        font-weight: 400;
+        color: #222c5d;
+        font-family: "Jost";
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    .wrapper {
+      .marquee {
+        li {
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,107 @@
+.container {
+  display: block;
+  background: #222c5d;
+  padding: 0px 20px;
+  position: relative;
+  .dropdownBox {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background: #222c5d;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 10px 0px;
+    .logo {
+      display: block;
+    }
+    .mainNav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        position: relative;
+        padding: 0px 20px;
+
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          color: #fff;
+          line-height: normal;
+          text-decoration: none;
+          padding-bottom: 2px;
+          border-bottom: solid 1px #222c5d;
+          span {
+            margin-left: 5px;
+            width: 14px;
+            display: block;
+            img {
+              display: block;
+              width: 100%;
+            }
+          }
+          .rotateArrow {
+            margin-left: 5px;
+            width: 14px;
+            display: inline-block;
+            transform: rotate(180deg);
+            transition: transform 0.3s ease-in-out;
+          }
+        }
+        a.active {
+          border-bottom: solid 1px #fff;
+        }
+        a:hover {
+          border-bottom: solid 1px #fff;
+        }
+        .dropdown {
+          position: absolute;
+          display: none;
+          left: 0;
+          top: 100%;
+          min-width: 200px;
+          flex-direction: column;
+          padding-top: 10px;
+          li {
+            display: block;
+            padding: 2px 20px;
+            a {
+              display: inline-block;
+              color: #fff;
+              font-size: 14px;
+              line-height: normal;
+            }
+          }
+        }
+      }
+      li:hover .dropdown {
+        display: flex;
+      }
+    }
+    .applyBtn {
+      display: block;
+      border-radius: 12px;
+      background: #f57a3e;
+      color: #fff;
+      font-family: "Chillax", sans-serif;
+      font-weight: 700;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .applyBtn:hover {
+      transform: scale(1.05);
+    }
+  }
+}

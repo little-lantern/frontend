@@ -1,0 +1,221 @@
+.container {
+  display: block;
+  background: #fff;
+  padding: 50px 0px;
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  .learningBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .leftBox {
+      max-width: 410px;
+      display: block;
+      margin-right: 100px;
+      .mainTitle {
+        color: #222c5d;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: -2.4px;
+        text-transform: uppercase;
+      }
+      .description {
+        color: #606060;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        padding: 16px 0px 24px 0px;
+      }
+      .cta {
+        color: #fff;
+        text-align: center;
+        font-family: "Chillax", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 12px;
+        background: #f57a3e;
+        display: inline-flex;
+        padding: 16px 20px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border: solid 2px #f57a3e;
+      }
+      .cta:hover {
+        color: #f57a3e;
+        background: #fff;
+      }
+    }
+    .ctaMobile {
+      display: none;
+    }
+  }
+  .rightBox {
+    display: block;
+    ul {
+      display: block;
+      margin: 0;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 35px;
+        flex-direction: row;
+        span {
+          display: inline-flex;
+          padding: 18px 33px;
+          justify-content: center;
+          align-items: center;
+          border-radius: 40px;
+          color: #fff;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 32px;
+          animation-iteration-count: infinite;
+        }
+      }
+      /* Different animations for each element */
+      li.one span {
+        background: #7771d7;
+        animation: rotateOne 2s ease-in-out infinite alternate;
+      }
+      li.two span {
+        background: #06b3db;
+        animation: rotateTwo 2.5s ease-in-out infinite alternate;
+      }
+      li.three span {
+        background: #f289b7;
+        animation: rotateThree 3s ease-in-out infinite alternate;
+      }
+      li.four span {
+        background: #f57a3e;
+        animation: rotateFour 3.5s ease-in-out infinite alternate;
+      }
+      li.five span {
+        background: #7771d7;
+        animation: rotateFive 4s ease-in-out infinite alternate;
+      }
+    }
+  }
+}
+
+/* 🔹 Keyframes for Infinite Animation */
+@keyframes rotateOne {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-6.524deg);
+  }
+}
+
+@keyframes rotateTwo {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(5.888deg);
+  }
+}
+
+@keyframes rotateThree {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-5.185deg);
+  }
+}
+
+@keyframes rotateFour {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(2.153deg);
+  }
+}
+
+@keyframes rotateFive {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-6.856deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    .learningBox {
+      display: block;
+      text-align: center;
+      .leftBox {
+        text-align: center;
+        max-width: 100%;
+        margin-right: 0px;
+        .mainTitle {
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 32px;
+          letter-spacing: -0.96px;
+        }
+        .description {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        .cta {
+          display: none;
+        }
+      }
+      .rightBox {
+        text-align: center;
+        max-width: 100%;
+        ul {
+          li {
+            span {
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 21px;
+              padding: 15px;
+            }
+          }
+        }
+      }
+      .ctaMobile {
+        color: #fff;
+        text-align: center;
+        font-family: "Chillax", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 12px;
+        background: #f57a3e;
+        display: inline-flex;
+        padding: 16px 20px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border: solid 2px #f57a3e;
+      }
+      .cta:hover {
+        color: #f57a3e;
+        background: #fff;
+      }
+    }
+  }
+}

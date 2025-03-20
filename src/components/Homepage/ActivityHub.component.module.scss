@@ -1,0 +1,151 @@
+.container {
+  display: block;
+  background: #edecff;
+  padding: 60px 0px 60px 0px;
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  .mainTitle {
+    display: flex;
+    justify-content: center;
+    color: #222c5d;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -2.4px;
+    text-transform: uppercase;
+  }
+  .description {
+    color: #222c5d;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    max-width: 880px;
+    margin: 0px auto;
+    padding-top: 24px;
+  }
+  .imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px 40px 0px;
+    width: 1000px;
+    position: relative;
+    margin: 0px auto;
+    .left,
+    .right {
+      border-radius: 20px;
+      display: block;
+      position: relative;
+      z-index: 2;
+      margin: 0px 5px;
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+    .leftIcon {
+      position: absolute;
+      left: -100px;
+      top: -35px;
+      z-index: 1;
+    }
+    .rightIcon {
+      position: absolute;
+      right: -116px;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+    }
+  }
+  .btnBox {
+    display: flex;
+    justify-content: center;
+    .cta {
+      display: inline-flex;
+      border-radius: 12px;
+      background: #f57a3e;
+      color: #fff;
+      text-align: center;
+      font-family: "Chillax", sans-serif;
+      font-size: 16px;
+      padding: 16px 20px;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+      border: solid 2px #f57a3e;
+    }
+    .cta:hover {
+      background: #fff;
+      color: #f57a3e;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    .mainTitle {
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.96px;
+    }
+    .description {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+    }
+    .imageBox {
+      display: block;
+      margin: 0px auto;
+      width: 100%;
+      .left {
+        img {
+          width: 100%;
+          display: block;
+        }
+      }
+      .right {
+        display: none;
+      }
+      .leftIcon {
+        display: none;
+      }
+      .rightIcon {
+        display: none;
+      }
+    }
+    .btnBox {
+      display: flex;
+      justify-content: center;
+      .cta {
+        display: inline-flex;
+        border-radius: 12px;
+        background: #f57a3e;
+        color: #fff;
+        text-align: center;
+        font-family: "Chillax", sans-serif;
+        font-size: 16px;
+        padding: 16px 20px;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        border: solid 2px #f57a3e;
+      }
+      .cta:hover {
+        background: #fff;
+        color: #f57a3e;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  .leftBox {
+    display: block;
+    max-width: 280px;
+    min-width: 280px;
+    .mainTitle {
+      color: #222c5d;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 110%;
+      letter-spacing: -2.4px;
+      text-transform: uppercase;
+    }
+    p {
+      color: #545454;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      padding-top: 24px;
+    }
+    .exploreBtn {
+      margin-top: 24px;
+      display: inline-flex;
+      border-radius: 12px;
+      background: #f57a3e;
+      color: #fff;
+      font-family: "Chillax", sans-serif;
+      font-weight: 700;
+      padding: 16px 40px;
+      font-size: 16px;
+      text-decoration: none;
+      transition: transform 0.3s ease-in-out;
+      border: 1.5px solid #f57a3e;
+      &:hover {
+        background: none;
+        color: #f57a3e;
+      }
+    }
+  }
+  .rightBox {
+    display: block;
+    max-width: 890px;
+    min-width: 890px;
+    .sliderImag {
+      display: block;
+      border-radius: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    background: #e8fbff;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    .leftBox {
+      display: block;
+      max-width: 100%;
+      min-width: 100%;
+      order: 2;
+      text-align: center;
+      .mainTitle {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.96px;
+        text-align: center;
+        padding-top: 28px;
+      }
+      p {
+        color: #545454;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        padding: 8px;
+      }
+      .exploreBtn {
+        display: inline-flex;
+        margin-top: 16px;
+      }
+    }
+    .rightBox {
+      display: block;
+      max-width: 100%;
+      min-width: 100%;
+      order: 1;
+    }
+  }
+}

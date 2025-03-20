@@ -1,0 +1,200 @@
+.container {
+  background: #222c5d url("../assets/images/footer-pattren.png") left bottom
+    repeat-x;
+  padding: 0px 20px;
+  padding-bottom: 60px;
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 10px 0px;
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1280px;
+      padding: 20px 20px 20px 40px;
+      .logo {
+        display: block;
+        max-width: 162px;
+      }
+      .mainNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+          display: block;
+          position: relative;
+          padding: 0px 10px;
+          a {
+            display: block;
+            font-size: 16px;
+            color: #fff;
+            font-weight: 300;
+            text-decoration: none;
+            border-bottom: solid 1px #222c5d;
+          }
+          a:hover {
+            border-bottom: solid 1px #fff;
+          }
+        }
+        li.desktopHide {
+          display: none;
+        }
+      }
+    }
+
+    .bottomBox {
+      display: flex;
+      border-top: solid 1px #fff;
+      padding: 20px 40px;
+      justify-content: space-between;
+      align-items: flex-start;
+      .socialShareBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li {
+          display: block;
+          a {
+            display: block;
+            margin-right: 10px;
+          }
+          a:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+      .policies {
+        display: block;
+        p {
+          padding-bottom: 10px;
+          font-size: 14px;
+          color: #fff;
+          strong {
+            font-size: 16px;
+            color: #fff;
+          }
+        }
+        ul {
+          display: block;
+          li {
+            padding-bottom: 5px;
+            a {
+              font-size: 14px;
+              display: block;
+              color: #fff;
+              text-decoration: none;
+              border-bottom: solid 1px #222c5d;
+            }
+            a:hover {
+              border-bottom: solid 1px #fff;
+            }
+          }
+        }
+      }
+    }
+
+    .addressBoxMobile {
+      display: none;
+      padding: 20px;
+      border-top: solid 1px #fff;
+      p {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 150% */
+        color: #fff;
+        strong {
+          display: block;
+          font-size: 16px;
+          color: #fff;
+          padding-bottom: 10px;
+        }
+      }
+    }
+
+    .copyright {
+      display: block;
+      text-align: center;
+      padding: 20px;
+      border-top: solid 1px #fff;
+      .socialShareBox {
+        display: none;
+      }
+      p {
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    .wrapper {
+      .navigation {
+        padding: 0px;
+        display: block;
+        .logo {
+          display: block;
+          max-width: 100%;
+          border-bottom: solid 1px #fff;
+          img {
+            display: block;
+            width: 160px;
+            margin: 30px auto;
+          }
+        }
+        .mainNav {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          padding: 20px 0px;
+          li {
+            flex: 1 1 calc(50% - 10px); /* Make two equal columns */
+            text-align: center;
+            a {
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 120%;
+              padding: 8px 0px;
+            }
+            a:hover {
+              border-bottom: none;
+            }
+          }
+          li.desktopHide {
+            display: block;
+          }
+          li:last-child {
+            max-width: 50%;
+          }
+        }
+      }
+      .bottomBox {
+        display: none;
+      }
+      .addressBoxMobile {
+        display: block;
+      }
+      .copyright {
+        .socialShareBox {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 10px;
+          li {
+            margin: 0px 5px;
+          }
+        }
+      }
+    }
+  }
+}
