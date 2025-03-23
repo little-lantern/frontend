@@ -16,7 +16,7 @@ const LearningsComponent: React.FC = () => {
               activities, children develop essential life skills in a joyful,
               nurturing environment.
             </p>
-            <Link className={styles.cta} to="/">
+            <Link className={styles.cta} to="/learning">
               Explore More
             </Link>
           </div>
@@ -39,7 +39,7 @@ const LearningsComponent: React.FC = () => {
               </li>
             </ul>
           </div>
-          <Link className={styles.ctaMobile} to="/">
+          <Link className={styles.ctaMobile} to="/learning">
             Explore More
           </Link>
         </div>

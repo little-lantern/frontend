@@ -5,7 +5,7 @@ import learningTimeImg from "../../assets/images/learning-time-img.png";
 
 const PedagogyComponent: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="pedagogy">
       <div className={styles.wrapper}>
         <h2 className={styles.mainTitle}>PEDAGOGY</h2>
         <p className={styles.description}>

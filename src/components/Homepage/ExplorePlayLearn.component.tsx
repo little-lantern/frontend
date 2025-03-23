@@ -16,10 +16,10 @@ const ExplorePlayLearnComponent: React.FC = () => {
           Get in touch to know more about our programs & activities.
         </p>
         <div className={styles.btnBox}>
-          <Link className={styles.ctaWhite} to="/">
+          <Link className={styles.ctaWhite} to="/apply-now">
             Apply Now
           </Link>
-          <Link className={styles.ctaNormal} to="/">
+          <Link className={styles.ctaNormal} to="/contact-us">
             Get In Touch
           </Link>
         </div>

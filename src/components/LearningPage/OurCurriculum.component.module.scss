@@ -69,3 +69,24 @@
     transform: translateX(-50%);
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 20px;
+    .mainTitle {
+      font-size: 32px;
+    }
+    .description {
+      font-size: 14px;
+    }
+    .btnBox {
+      padding-top: 20px;
+      ul {
+        li {
+          font-size: 20px;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+}

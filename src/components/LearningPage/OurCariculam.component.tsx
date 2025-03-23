@@ -42,7 +42,7 @@ const dataJson = [
 
 const OurCurriculumComponent: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="curriculum">
       <h2 className={styles.mainTitle}>OUR CURRICULUM</h2>
       <p className={styles.description}>
         At Little Lantern, learning is a joyful adventure! Our curriculum

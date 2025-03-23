@@ -4,31 +4,31 @@ import ClosePeople from "../../assets/images/playing-with-kids.png";
 
 const dataJson = [
   {
-    id: "01",
+    id: "1",
     title: "Rich World of Languages",
     description:
       "Building communication skills in English, Hindi, and foreign languages through storytelling, listening & speaking",
   },
   {
-    id: "02",
+    id: "2",
     title: "Diverse Forms of Expression & Cultural Awareness",
     description:
       "Encouraging self-expression through art, music, dance, and theater.",
   },
   {
-    id: "03",
+    id: "3",
     title: "Me and My Community",
     description:
       "Teaching empathy, social skills, and ethical values while fostering a sense of responsibility.",
   },
   {
-    id: "04",
+    id: "4",
     title: "Exploring and Interacting with My Environment",
     description:
       "Introducing sciences, environmental awareness, and mathematical concepts.",
   },
   {
-    id: "05",
+    id: "5",
     title: "I Grow, Move, and Develop",
     description:
       "Enhancing motor skills, coordination, and overall well-being through physical education.",

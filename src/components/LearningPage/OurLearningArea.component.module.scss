@@ -98,12 +98,9 @@
 
 @media (max-width: 768px) {
   .container {
-    padding: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     .title {
-      display: none;
-    }
-    .description {
-      display: none;
+      font-size: 32px;
     }
 
     .bannerBox {
@@ -120,19 +117,24 @@
       .bannerContent {
         padding: 0px 20px;
         border-radius: 0px;
+        background: #edecff;
         .box {
           padding: 14px 0;
+          border-color: #7771d7;
           .iconImg {
-            max-width: 44px;
-            min-width: 44px;
+            max-width: 54px;
+            min-width: 54px;
+            -webkit-text-stroke-color: #7771d7;
           }
           .itemContent {
             display: block;
             span {
               font-size: 20px;
+              color: #7771d7;
             }
             p {
               font-size: 14px;
+              color: #7771d7;
             }
           }
         }

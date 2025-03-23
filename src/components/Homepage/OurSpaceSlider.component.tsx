@@ -48,7 +48,7 @@ const OurSpaceSliderComponent: React.FC = () => {
           built a home away from home where children feel safe, inspired, and
           excited to learn.
         </p>
-        <Link to="/" className={styles.exploreBtn}>
+        <Link to="/our-space" className={styles.exploreBtn}>
           Explore More
         </Link>
       </div>

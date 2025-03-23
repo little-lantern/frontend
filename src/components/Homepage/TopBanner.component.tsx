@@ -19,10 +19,10 @@ const TopBannerComponent: React.FC = () => {
               foundation for lifelong learning.
             </p>
             <div className={styles.btn}>
-              <Link to="/" className={styles.orangeCta}>
+              <Link to="/programs" className={styles.orangeCta}>
                 Explore Programs
               </Link>
-              <Link to="/" className={styles.whiteCta}>
+              <Link to="/contact-us" className={styles.whiteCta}>
                 Get In Touch
               </Link>
             </div>

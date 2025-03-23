@@ -33,7 +33,7 @@ const ActivityHubComponent: React.FC = () => {
           </div>
         </div>
         <div className={styles.btnBox}>
-          <Link className={styles.cta} to="/">
+          <Link className={styles.cta} to="/activity">
             View All Activities
           </Link>
         </div>

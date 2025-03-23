@@ -15,6 +15,7 @@ import AdmissionsPage from "./pages/Admissions.page";
 import ActivityHubPage from "./pages/ActivityHub.page";
 import OurSpacePage from "./pages/OurSpace.page";
 import LearningPage from "./pages/Learning.page";
+import ApplyNowPage from "./pages/ApplyNow.page";
 const App: React.FC = () => {
   return (
     // <Router basename="/frontend">
@@ -32,6 +33,7 @@ const App: React.FC = () => {
           <Route path="/activity" element={<ActivityHubPage />} />
           <Route path="/our-space" element={<OurSpacePage />} />
           <Route path="/learning" element={<LearningPage />} />
+          <Route path="/apply-now" element={<ApplyNowPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

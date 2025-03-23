@@ -152,10 +152,10 @@ const HeaderDesktop: React.FC = () => {
                 }}
               >
                 <li>
-                  <Link to="/pedagogy">Pedagogy</Link>
+                  <Link to="/learning#pedagogy">Pedagogy</Link>
                 </li>
                 <li>
-                  <Link to="/curriculum">Curriculum</Link>
+                  <Link to="/learning#curriculum">Curriculum</Link>
                 </li>
               </ul>
             </li>

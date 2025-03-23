@@ -128,24 +128,19 @@
     }
     .imageBoxContent {
       .box {
-        display: block;
-        position: relative;
         margin: 0px 10px;
         .img {
           position: relative;
-          border-radius: 20px 20px 0px 0px;
           img {
             display: block;
-            width: 100%;
-            position: relative;
-            z-index: 2;
-            border-radius: 20px 20px 0px 0px;
           }
         }
         .contentBox {
           padding: 10px 20px;
+          background: #7771d7;
           h3 {
-            font-size: 24px;
+            font-size: 18px;
+            color: #fff;
           }
           p {
             display: none;
@@ -155,29 +150,16 @@
       .box.left {
         transform: rotate(-1.959deg);
         &::after {
-          transform: rotate(-8.917deg);
-          display: block;
-          border-radius: 20px 20px;
-          z-index: 1;
+          transform: rotate(-3.917deg);
           left: -10px;
-          top: 0;
-          position: absolute;
         }
       }
       .box.right {
-        transform: rotate(3.475deg);
+        transform: rotate(1.959deg);
         &::after {
           content: "";
-          background: #0f1741;
-          height: 100%;
-          width: 100%;
-          transform: rotate(12.131deg);
-          display: block;
-          border-radius: 20px 20px;
-          z-index: 1;
+          transform: rotate(3.917deg);
           right: -10px;
-          top: 0;
-          position: absolute;
         }
       }
     }
