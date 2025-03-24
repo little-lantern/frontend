@@ -37,7 +37,6 @@ const App: React.FC = () => {
           <Route path="/our-space" element={<OurSpacePage />} />
           <Route path="/learning" element={<LearningPage />} />
           <Route path="/apply-now" element={<ApplyNowPage />} />
-          <Route path="/apply-now" element={<PrivacyPolicyPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/terms-of-use" element={<TermsOfUsePage />} />
           <Route path="*" element={<NotFound />} />
