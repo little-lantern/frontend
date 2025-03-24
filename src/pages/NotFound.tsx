@@ -5,9 +5,13 @@ import styles from "./NotFound.module.scss";
 const NotFound: React.FC = () => {
   return (
     <div className={styles.notFound}>
-      <h1>404 - Page Not Found</h1>
-      <p>Oops! The page you're looking for doesn't exist.</p>
-      <Link to="/">Go back to Home</Link>
+      <h1>
+        <span>404</span> Page Not Found
+      </h1>
+      <p>
+        Oops! The page you're looking for doesn't exist.{" "}
+        <Link to="/">Go back to Home</Link>
+      </p>
     </div>
   );
 };

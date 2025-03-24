@@ -1,0 +1,52 @@
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e8fbff;
+  flex-direction: column;
+  padding: 50px 20px;
+  min-height: 500px;
+
+  h1 {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    padding: 0px;
+    text-transform: uppercase;
+    span {
+      color: #f57a3e;
+    }
+  }
+  p {
+    display: block;
+    color: #222c5d;
+    padding: 0px;
+    font-size: 16px;
+    text-align: center;
+    a {
+      color: #f57a3e;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .notFound {
+    min-height: 400px;
+
+    h1 {
+      font-size: 28px;
+      span {
+        display: block;
+      }
+    }
+    p {
+      font-size: 14px;
+      a {
+        display: block;
+      }
+    }
+  }
+}
