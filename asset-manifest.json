@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.f6dcfa28.css",
-    "main.js": "/frontend/static/js/main.1574dec8.js",
-    "static/media/video-bg-full-01.png": "/frontend/static/media/video-bg-full-01.0f8a7b828f5e74bb5d68.png",
+    "main.css": "/frontend/static/css/main.2865d742.css",
+    "main.js": "/frontend/static/js/main.e47ee61f.js",
     "static/media/overview-hero-image.png": "/frontend/static/media/overview-hero-image.2dd53d0e4711a5810a02.png",
     "static/media/hero-image-about-01.jpg": "/frontend/static/media/hero-image-about-01.b48cdc1e08dd41c58d3f.jpg",
     "static/media/slider-4-3.jpg": "/frontend/static/media/slider-4-3.1d2d568cc6ed875e729e.jpg",
+    "static/media/playing-with-kids.png": "/frontend/static/media/playing-with-kids.d44827125717472a7c29.png",
     "static/media/slider-4-5.jpg": "/frontend/static/media/slider-4-5.a8f2e7e38a692099fe0e.jpg",
     "static/media/slider-4-2.jpg": "/frontend/static/media/slider-4-2.7d6cc00af83e3f6a6aba.jpg",
     "static/media/slider-4-11.jpg": "/frontend/static/media/slider-4-11.e32773d9f378505944bf.jpg",
@@ -48,11 +48,15 @@
     "static/media/overview-02.png": "/frontend/static/media/overview-02.ed5717e8a05b0e906f08.png",
     "static/media/gir-flying-img.png": "/frontend/static/media/gir-flying-img.f27a23547038af0f37d6.png",
     "static/media/overview-04.png": "/frontend/static/media/overview-04.856388384a368019307e.png",
+    "static/media/learning-time-img.png": "/frontend/static/media/learning-time-img.850efb3e1277b4e2dc1a.png",
+    "static/media/explore-time-img.png": "/frontend/static/media/explore-time-img.857b183d03932589887c.png",
     "static/media/smiling-girl.png": "/frontend/static/media/smiling-girl.7b3af8548fb0fa4710ff.png",
     "static/media/little-boy-with-hands.png": "/frontend/static/media/little-boy-with-hands.15820e8eb3c1b02b46f5.png",
     "static/media/insta-feed-01.png": "/frontend/static/media/insta-feed-01.bab05b5118b9a55125e2.png",
+    "static/media/desktop-image-learning-image.png": "/frontend/static/media/desktop-image-learning-image.fe19973dff8acf580fef.png",
     "static/media/founder-img.png": "/frontend/static/media/founder-img.40aed6f6b87e8a320a0b.png",
     "static/media/little-boy.png": "/frontend/static/media/little-boy.e602f12b4a500cbf084f.png",
+    "static/media/mobile-image-learning-image.png": "/frontend/static/media/mobile-image-learning-image.1bd4115cd4e0436dae38.png",
     "static/media/envelop-icon.png": "/frontend/static/media/envelop-icon.644ebaa6324d185fb06b.png",
     "static/media/founder-env-icon.png": "/frontend/static/media/founder-env-icon.271a4274afda549fd9ab.png",
     "static/media/collaboration-icon.svg": "/frontend/static/media/collaboration-icon.79a87641a478753f12ff258fa79a65e7.svg",
@@ -67,11 +71,11 @@
     "static/media/dropdown-arrow.svg": "/frontend/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
     "static/media/prev-arrow.svg": "/frontend/static/media/prev-arrow.68e3be07e6ea572bb832e139d2c22eab.svg",
     "static/media/next-arrow.svg": "/frontend/static/media/next-arrow.3654db3fd53260675a2f6eb658ea5d7a.svg",
-    "main.f6dcfa28.css.map": "/frontend/static/css/main.f6dcfa28.css.map",
-    "main.1574dec8.js.map": "/frontend/static/js/main.1574dec8.js.map"
+    "main.2865d742.css.map": "/frontend/static/css/main.2865d742.css.map",
+    "main.e47ee61f.js.map": "/frontend/static/js/main.e47ee61f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6dcfa28.css",
-    "static/js/main.1574dec8.js"
+    "static/css/main.2865d742.css",
+    "static/js/main.e47ee61f.js"
   ]
 }
