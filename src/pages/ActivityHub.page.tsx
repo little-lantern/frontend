@@ -92,7 +92,7 @@ const ActivityHubPage: React.FC = () => {
       {!isMobile && <ActivityTabComponent tabs={tabData} />}
       {isMobile && <ActivityMobileComponent tabs={tabData} />}
       <div className={styles.btnBox}>
-        <Link to="/">Enquire Now</Link>
+        <Link to="/contact-us">Enquire Now</Link>
       </div>
     </div>
   );

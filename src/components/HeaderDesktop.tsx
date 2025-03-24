@@ -180,7 +180,7 @@ const HeaderDesktop: React.FC = () => {
               </Link>
             </li>
           </ul>
-          <Link className={styles.applyBtn} to="/">
+          <Link className={styles.applyBtn} to="/apply-now">
             Apply Now
           </Link>
         </nav>

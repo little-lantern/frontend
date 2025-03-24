@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
       <OurSpaceComponent />
       <OurProgramsComponents />
       <ZoneAndAreaComponent />
-      <VideoEmbedComponent />
+      {/* <VideoEmbedComponent /> */}
       <LearningsComponent />
       <ActivityHubComponent />
       <AdmissionComponent />

@@ -16,10 +16,14 @@ import ActivityHubPage from "./pages/ActivityHub.page";
 import OurSpacePage from "./pages/OurSpace.page";
 import LearningPage from "./pages/Learning.page";
 import ApplyNowPage from "./pages/ApplyNow.page";
+import PrivacyPolicyPage from "./pages/PrivacyPolicy.page";
+import TermsOfUsePage from "./pages/TermsOfUse.page";
+import ScrollToTop from "./components/ScrollToTop.component";
 const App: React.FC = () => {
   return (
     // <Router basename="/frontend">
     <Router>
+      <ScrollToTop />
       <Header />
       <main>
         <Routes>
@@ -34,6 +38,9 @@ const App: React.FC = () => {
           <Route path="/our-space" element={<OurSpacePage />} />
           <Route path="/learning" element={<LearningPage />} />
           <Route path="/apply-now" element={<ApplyNowPage />} />
+          <Route path="/apply-now" element={<PrivacyPolicyPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/terms-of-use" element={<TermsOfUsePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

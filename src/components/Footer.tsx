@@ -24,9 +24,6 @@ const Footer: React.FC = () => {
             <li>
               <Link to="/our-space">Our Space</Link>
             </li>
-            <li>
-              <Link to="/why-us">Why US</Link>
-            </li>
 
             <li>
               <Link to="/programs">Programs</Link>

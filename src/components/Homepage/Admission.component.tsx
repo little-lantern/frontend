@@ -19,10 +19,10 @@ const AdmissionComponent: React.FC = () => {
               ADMISSION OPEN FOR 2025 SUMMER BATCH
             </p>
             <div className={styles.btnBox}>
-              <Link className={styles.ctaWhite} to="/">
+              <Link className={styles.ctaWhite} to="/apply-now">
                 Apply Now
               </Link>
-              <Link className={styles.ctaNormal} to="/">
+              <Link className={styles.ctaNormal} to="/contact-us">
                 Get In Touch
               </Link>
             </div>

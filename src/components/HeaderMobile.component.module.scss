@@ -57,8 +57,13 @@
         width: 14px;
         display: block;
         position: absolute;
-        right: 50px;
-        top: 35px;
+        right: 20px;
+        top: 0px;
+        height: 80px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         transition: transform 0.3s ease-in-out;
         img {
           display: block;

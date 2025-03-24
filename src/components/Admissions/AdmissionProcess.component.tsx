@@ -86,7 +86,7 @@ const AdmissionProcessComponent: React.FC = () => {
           </Swiper>
         </div>
         <div className={styles.btnBox}>
-          <Link to="/">Apply Now</Link>
+          <Link to="/apply-now">Apply Now</Link>
         </div>
       </div>
     </div>

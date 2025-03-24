@@ -5,15 +5,19 @@
   padding: 0;
   overflow: hidden;
   .wrapper {
-    max-width: 100%;
     padding: 5px;
     white-space: nowrap;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
     .marquee {
       display: flex;
-      white-space: nowrap;
-      gap: 50px;
-      animation: marquee-scroll 20s linear infinite; // Adjust speed (10s)
-      will-change: transform;
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      animation: marqueeScroll 10s linear infinite;
       &:hover {
         animation-play-state: paused;
       }
@@ -41,11 +45,11 @@
   }
 }
 
-@keyframes marquee-scroll {
+@keyframes marqueeScroll {
   from {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }

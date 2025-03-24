@@ -24,7 +24,7 @@ const HeaderMobileComponent: React.FC = () => {
   useEffect(() => {
     setIsOpen(false);
     setOpenMenus({});
-  }, [location.pathname]); // Runs when the URL changes
+  }, [location.pathname, location.hash]); // Runs when the URL changes
 
   // Prevent body scroll when menu is open
   useEffect(() => {
@@ -126,10 +126,10 @@ const HeaderMobileComponent: React.FC = () => {
               }`}
             >
               <li>
-                <Link to="/pedagogy">Pedagogy</Link>
+                <Link to="/learning#pedagogy">Pedagogy</Link>
               </li>
               <li>
-                <Link to="/curriculum">Curriculum</Link>
+                <Link to="/learning#curriculum">Curriculum</Link>
               </li>
             </ul>
           </li>
@@ -140,7 +140,7 @@ const HeaderMobileComponent: React.FC = () => {
             <Link to="/activity">Activity hub</Link>
           </li>
         </ul>
-        <Link className={styles.applyBtn} to="/">
+        <Link className={styles.applyBtn} to="/apply-now">
           Apply Now
         </Link>
       </div>
