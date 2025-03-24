@@ -21,7 +21,6 @@ import TermsOfUsePage from "./pages/TermsOfUse.page";
 import ScrollToTop from "./components/ScrollToTop.component";
 const App: React.FC = () => {
   return (
-    // <Router basename="/frontend">
     <Router>
       <ScrollToTop />
       <Header />
