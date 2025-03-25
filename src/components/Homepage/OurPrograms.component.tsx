@@ -87,7 +87,7 @@ const OurProgramsComponents: React.FC = () => {
         </div>
 
         <div className={styles.btnBox}>
-          <Link to="/overview">Explore Programs</Link>
+          <Link to="/programs">Explore Programs</Link>
         </div>
       </div>
     </div>
