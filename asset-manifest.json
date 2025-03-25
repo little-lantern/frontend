@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.64c8542d.css",
+    "main.css": "/frontend/static/css/main.9db7c3ec.css",
     "main.js": "/frontend/static/js/main.dfad557e.js",
     "static/media/overview-hero-image.png": "/frontend/static/media/overview-hero-image.2dd53d0e4711a5810a02.png",
     "static/media/hero-image-about-01.jpg": "/frontend/static/media/hero-image-about-01.b48cdc1e08dd41c58d3f.jpg",
@@ -71,11 +71,11 @@
     "static/media/dropdown-arrow.svg": "/frontend/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
     "static/media/prev-arrow.svg": "/frontend/static/media/prev-arrow.68e3be07e6ea572bb832e139d2c22eab.svg",
     "static/media/next-arrow.svg": "/frontend/static/media/next-arrow.3654db3fd53260675a2f6eb658ea5d7a.svg",
-    "main.64c8542d.css.map": "/frontend/static/css/main.64c8542d.css.map",
+    "main.9db7c3ec.css.map": "/frontend/static/css/main.9db7c3ec.css.map",
     "main.dfad557e.js.map": "/frontend/static/js/main.dfad557e.js.map"
   },
   "entrypoints": [
-    "static/css/main.64c8542d.css",
+    "static/css/main.9db7c3ec.css",
     "static/js/main.dfad557e.js"
   ]
 }
