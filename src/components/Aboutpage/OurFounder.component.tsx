@@ -22,7 +22,7 @@ const OurFounderComponent: React.FC = () => {
             <img src={FounderImage} alt="" />
             <p>
               <strong>Shubh Agarwal Sonthalia</strong>
-              <span>Founder, Little Lattern</span>
+              <span>Founder, Little Lantern</span>
             </p>
             <div className={styles.sign}>
               <img src={SigneIcon} alt="" />

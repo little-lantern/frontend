@@ -59,7 +59,7 @@ const tabData: Tab[] = [
       image: tabThreeImag,
       title: "Playgroup",
       ageGroup: "Age Group: 2-3 years",
-      schedule: "Duration: 2.5 hours, Mon -Fri, 8:30 - 11 am",
+      schedule: "Duration: 2 hours and 45 minutes, Mon - Fri, 8:30 - 11:15 am",
       description:
         "A balance of free play, guided activities, and foundational skill-building.",
       url: "/overview#program-3",
@@ -77,7 +77,7 @@ const tabData: Tab[] = [
       image: tabFourImag,
       title: "Nursery",
       ageGroup: "Age Group: 3-4 years",
-      schedule: "Duration: 3 hours 15 mins, Mon -Fri , 8:15 - 11:30 am",
+      schedule: "Duration: 3 hours 15 mins, Mon - Fri , 8:15 - 11:30 am",
       description:
         "A stimulating curriculum focusing on creativity, problem-solving, and early literacy.",
       url: "/overview#program-4",
@@ -95,7 +95,7 @@ const tabData: Tab[] = [
       image: tabFiveImag,
       title: "KG1",
       ageGroup: "Age Group: 4-5 years",
-      schedule: "Duration: 3.5 hours, Mon -Fri,  8 - 11:30 am",
+      schedule: "Duration: 3.5 hours, Mon  -Fri,  8 - 11:30 am",
       description:
         "A dynamic kindergarten program preparing children for school success through inquiry-based learning and exploration.",
       url: "/overview#program-5",

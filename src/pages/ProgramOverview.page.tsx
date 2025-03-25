@@ -77,7 +77,7 @@ const programsData: IPrograms[] = [
     id: 3,
     title: "Playgroup",
     ageGroup: "2-3 years",
-    duration: "2.5 hours, Mon -Fri, 8:30 - 11 am",
+    duration: "2 hours and 45 minutes, Mon - Fri, 8:30 - 11:15 am",
     content: (
       <>
         <p>

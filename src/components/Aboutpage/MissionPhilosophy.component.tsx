@@ -17,12 +17,12 @@ const MissionPhilosophyComponent: React.FC = () => {
             </h3>
             <p className={styles.description}>
               Every child is the hero of their own learning journey. Our vision
-              is to create a nurturing environment where children are free to
+              is to create a holistic environment where children are free to
               explore, experiment, and express themselves. With a strong
-              foundation in values and a love for lifelong learning, we prepare
-              young learners to embrace challenges with curiosity and
-              confidence, growing into capable, compassionate individuals ready
-              for the future.
+              foundation in values and a love for learning that they will carry
+              lifelong, we prepare young learners to embrace challenges with
+              curiosity and confidence, growing into capable, compassionate
+              individuals ready to take on the future.
             </p>
           </div>
         </div>
@@ -33,13 +33,13 @@ const MissionPhilosophyComponent: React.FC = () => {
             </h3>
             <p className={styles.description}>
               We honor that each child learns in their own unique way. Our
-              approach focuses on equipping them with essential life
+              approach focuses on equipping each one of them with essential life
               skills—critical thinking, problem-solving, adaptability, and
-              confidence. By fostering an environment that encourages
-              independence and creativity, we empower children to understand and
-              engage with the world around them. Our holistic learning model
-              builds resilience, curiosity, and a love for learning that lasts a
-              lifetime.
+              confidence. We empower children to understand and engage with the
+              world around them by providing them with an environment that
+              encourages independence and creativity. Our holistic learning
+              model builds resilience, curiosity, and a love for learning that
+              lasts a lifetime.
             </p>
           </div>
           <div className={styles.imgBox}>
