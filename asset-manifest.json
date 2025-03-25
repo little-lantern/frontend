@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.2865d742.css",
-    "main.js": "/frontend/static/js/main.1d279374.js",
+    "main.css": "/frontend/static/css/main.07605d6d.css",
+    "main.js": "/frontend/static/js/main.f2e607bf.js",
     "static/media/overview-hero-image.png": "/frontend/static/media/overview-hero-image.2dd53d0e4711a5810a02.png",
     "static/media/hero-image-about-01.jpg": "/frontend/static/media/hero-image-about-01.b48cdc1e08dd41c58d3f.jpg",
     "static/media/slider-4-3.jpg": "/frontend/static/media/slider-4-3.1d2d568cc6ed875e729e.jpg",
@@ -71,11 +71,11 @@
     "static/media/dropdown-arrow.svg": "/frontend/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
     "static/media/prev-arrow.svg": "/frontend/static/media/prev-arrow.68e3be07e6ea572bb832e139d2c22eab.svg",
     "static/media/next-arrow.svg": "/frontend/static/media/next-arrow.3654db3fd53260675a2f6eb658ea5d7a.svg",
-    "main.2865d742.css.map": "/frontend/static/css/main.2865d742.css.map",
-    "main.1d279374.js.map": "/frontend/static/js/main.1d279374.js.map"
+    "main.07605d6d.css.map": "/frontend/static/css/main.07605d6d.css.map",
+    "main.f2e607bf.js.map": "/frontend/static/js/main.f2e607bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.2865d742.css",
-    "static/js/main.1d279374.js"
+    "static/css/main.07605d6d.css",
+    "static/js/main.f2e607bf.js"
   ]
 }
