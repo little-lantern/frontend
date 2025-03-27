@@ -14,6 +14,8 @@ import { useLocation } from "react-router-dom";
 import ProgramListItemComponent, {
   IPrograms,
 } from "../components/ProgramListItem.component";
+import useIsMobile from "../hooks/useIsMobile";
+import useWindowHeight from "../hooks/useWindowHeight";
 
 const programsData: IPrograms[] = [
   {
@@ -161,20 +163,31 @@ const programsData: IPrograms[] = [
 
 const ProgramOverviewPage: React.FC = () => {
   const location = useLocation();
+  const isMobile = useIsMobile();
+  const offSetValue = isMobile ? 95 : 122;
+  const height = useWindowHeight() - offSetValue;
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.substring(1));
       if (element) {
         setTimeout(() => {
-          element.scrollIntoView({ behavior: "smooth" });
+          const yOffset = -offSetValue; // Adjust for 120px offset from the top
+          const y =
+            element.getBoundingClientRect().top + window.scrollY + yOffset;
+          window.scrollTo({ top: y, behavior: "smooth" });
+
+          // Remove hash from URL without affecting history
           window.history.replaceState(null, "", window.location.pathname);
         }, 100);
       }
     }
-  }, [location]);
+  }, [location, offSetValue]);
   return (
     <div className={styles.container}>
-      <div className={styles.heroImg}>
+      <div
+        className={styles.heroImg}
+        style={{ height: isMobile ? "auto" : height }}
+      >
         <img src={HeroImg} alt="" />
       </div>
 

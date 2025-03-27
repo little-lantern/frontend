@@ -94,11 +94,10 @@ const Footer: React.FC = () => {
               <strong>Address</strong>
             </p>
             <p>
-              Little Lantern - Early Learning Center <br />
-              170, Harish Mukherjee Road,
-              <br /> Kolkata - 700026 <br />
-              +91 89100 06463 <br />
-              info@littlelantern.in
+              <span>Little Lantern - Early Learning Center</span>
+              <span>170, Harish Mukherjee Road, Kolkata - 700026</span>
+              <span>+91 89100 06463</span>
+              <span>info@littlelantern.in</span>
             </p>
           </div>
         </div>
@@ -108,12 +107,10 @@ const Footer: React.FC = () => {
             <strong>Address</strong>
           </p>
           <p>
-            Little Lantern - Early Learning Center <br />
-            170, Harish Mukherjee Road, Kolkata - 700026
-            <br />
-            +91 89100 06463
-            <br />
-            info@littlelantern.in
+            <span>Little Lantern - Early Learning Center</span>
+            <span>170, Harish Mukherjee Road, Kolkata - 700026</span>
+            <span>+91 89100 06463</span>
+            <span>info@littlelantern.in</span>
           </p>
         </div>
 
@@ -140,7 +137,7 @@ const Footer: React.FC = () => {
               </Link>
             </li>
           </ul>
-          <p>© 2025 Little Lanterns Preschool. All rights reserved.</p>
+          <p>© 2025 Little Lantern Preschool. All rights reserved.</p>
         </div>
       </div>
     </footer>

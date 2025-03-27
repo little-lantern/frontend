@@ -93,7 +93,7 @@ const HeaderMobileComponent: React.FC = () => {
               }`}
             >
               <li>
-                <Link to="/overview">Overview</Link>
+                <Link to="/programs">Overview</Link>
               </li>
               <li>
                 <Link to="/overview#program-1">Parent Toddler</Link>

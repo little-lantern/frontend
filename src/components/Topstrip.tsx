@@ -16,16 +16,6 @@ const TopStrip: React.FC = () => {
             <li key={index}>{msg}</li>
           ))}
         </ul>
-        <ul className={styles.marquee}>
-          {messages.concat(messages).map((msg, index) => (
-            <li key={index}>{msg}</li>
-          ))}
-        </ul>
-        <ul className={styles.marquee}>
-          {messages.concat(messages).map((msg, index) => (
-            <li key={index}>{msg}</li>
-          ))}
-        </ul>
       </div>
     </div>
   );

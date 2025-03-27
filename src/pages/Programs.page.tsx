@@ -6,11 +6,11 @@ import tabTwoImag from "../assets/images/program-tab-02.png";
 import tabThreeImag from "../assets/images/program-tab-03.png";
 import tabFourImag from "../assets/images/program-tab-04.png";
 import tabFiveImag from "../assets/images/program-tab-05.png";
-import tabGraphicOne from "../assets/images/program-tab-graphic-01.png";
-import tabGraphicTwo from "../assets/images/program-tab-graphic-02.png";
-import tabGraphicThree from "../assets/images/program-tab-graphic-03.png";
-import tabGraphicFour from "../assets/images/program-tab-graphic-04.png";
-import tabGraphicFive from "../assets/images/program-tab-graphic-05.png";
+import tabGraphicOne from "../assets/images/program-tabs-graphic-01.png";
+import tabGraphicTwo from "../assets/images/program-tabs-graphic-02.png";
+import tabGraphicThree from "../assets/images/program-tabs-graphic-03.png";
+import tabGraphicFour from "../assets/images/program-tabs-graphic-04.png";
+import tabGraphicFive from "../assets/images/program-tabs-graphic-05.png";
 import WhatCanYouExpectComponent from "../components/ProgramsPage/WhatCanYouExpect.component";
 
 const tabData: Tab[] = [

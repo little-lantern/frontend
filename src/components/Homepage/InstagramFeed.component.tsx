@@ -39,7 +39,12 @@ const InstagramFeedComponent: React.FC = () => {
           </ul>
         </div>
         <div className={styles.btnBox}>
-          <Link to="/">Visit Instagram</Link>
+          <Link
+            target="_blank"
+            to="https://www.instagram.com/littlelanternindia?igsh=MWgzdGd6cGQ3MzZmag=="
+          >
+            Visit Instagram
+          </Link>
         </div>
       </div>
     </div>

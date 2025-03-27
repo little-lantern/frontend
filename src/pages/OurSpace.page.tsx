@@ -17,7 +17,7 @@ const OurSpacePage: React.FC = () => {
         and outdoor play areas, and interactive classrooms are designed to spark
         imagination and hands-on exploration.
       </p>
-      <TopVideoComponent />
+      {/* <TopVideoComponent /> */}
       <ImageSliderComponent />
       <FeaturesComponent />
     </div>

@@ -10,19 +10,25 @@ import TypicalDayMobileComponent from "../components/LearningPage/TypicalDayMobi
 import { useLocation } from "react-router-dom";
 
 const LearningPage: React.FC = () => {
-  const isMobile = useIsMobile();
   const location = useLocation();
+  const isMobile = useIsMobile();
+  const offSetValue = isMobile ? 95 : 122;
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.substring(1));
       if (element) {
         setTimeout(() => {
-          element.scrollIntoView({ behavior: "smooth" });
+          const yOffset = -offSetValue; // Adjust for 120px offset from the top
+          const y =
+            element.getBoundingClientRect().top + window.scrollY + yOffset;
+          window.scrollTo({ top: y, behavior: "smooth" });
+
+          // Remove hash from URL without affecting history
           window.history.replaceState(null, "", window.location.pathname);
         }, 100);
       }
     }
-  }, [location]);
+  }, [location, offSetValue]);
   return (
     <div className={styles.container}>
       <PedagogyComponent />

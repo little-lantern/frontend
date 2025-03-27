@@ -91,6 +91,13 @@ const CustomTabs: React.FC<IProps> = ({ tabs }) => {
                     >
                       Read More
                     </Link>
+                    <div
+                      className={`${styles.graphicImag} ${
+                        styles[tab.label.replace(/\s+/g, "_").toLowerCase()]
+                      }`}
+                    >
+                      <img src={tab.content.graphic} alt="" />
+                    </div>
                   </div>
                 </div>
               )

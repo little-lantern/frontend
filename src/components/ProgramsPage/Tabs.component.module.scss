@@ -9,11 +9,14 @@
   }
   .tabs {
     display: flex;
-    align-items: flex-end;
-    height: 100px;
-    margin-top: 20px;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+    height: 130px;
+
     .tabBtn {
       border: none;
+      flex: 1 1 18%;
       font-family: "Chillax";
       font-size: 24px;
       font-style: normal;
@@ -27,14 +30,12 @@
       align-items: center;
       background: #edecff;
       color: #f57a3e;
-      margin-right: 10px;
       cursor: pointer;
-      max-width: 150px;
       height: 100px;
       transition: height 0.3s ease-in-out;
     }
     .tabBtn.active {
-      height: 120px;
+      height: 130px;
     }
   }
   .content {
@@ -57,6 +58,7 @@
         display: block;
         padding: 20px 50px;
         max-width: 580px;
+        position: relative;
         h3 {
           display: block;
           font-size: 32px;
@@ -64,6 +66,8 @@
           font-weight: 700;
           line-height: normal;
           letter-spacing: -0.96px;
+          position: relative;
+          z-index: 2;
         }
         .schedule {
           font-size: 20px;
@@ -72,6 +76,8 @@
           line-height: 32px;
           display: block;
           padding-bottom: 5px;
+          position: relative;
+          z-index: 2;
         }
         .description {
           display: block;
@@ -80,6 +86,8 @@
           font-weight: 400;
           line-height: 24px;
           padding: 25px 0px;
+          position: relative;
+          z-index: 2;
         }
         .btn {
           text-align: center;
@@ -94,6 +102,33 @@
           padding: 10px 40px;
           border-radius: 12px;
           text-decoration: none;
+          position: relative;
+          z-index: 2;
+        }
+        .graphicImag {
+          position: absolute;
+          z-index: 1;
+          opacity: 0.8;
+        }
+        .parent_toddler {
+          bottom: -76px;
+          left: 0;
+        }
+        .toddler {
+          bottom: -76px;
+          left: 0;
+        }
+        .playgroup {
+          bottom: -87px;
+          right: -20px;
+        }
+        .nursery {
+          bottom: -76px;
+          right: -20px;
+        }
+        .kg1 {
+          top: -70px;
+          right: -100px;
         }
       }
     }
@@ -144,6 +179,9 @@
           }
           .btn {
             font-size: 16px;
+          }
+          .graphicImag {
+            display: none;
           }
         }
       }

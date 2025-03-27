@@ -35,7 +35,7 @@ const dataJson = [
     icon: AbIconThree,
     title: "Safety, Hygiene & Well-Being",
     content:
-      "Children’s safety is our top priority. Our child-friendly infrastructure features soft flooring, 24/7 CCTV surveillance, and strict hygiene protocols. OurChildren’s safety is our top priority. Our child-friendly infrastructure features soft flooring, 24/7 CCTV surveillance, and strict hygiene protocols. Our trained staff ensures a secure and nurturing environment for your child, giving you peace of mind.",
+      "Children’s safety is our top priority. Our child-friendly infrastructure features soft flooring, 24/7 CCTV surveillance, and strict hygiene protocols. Our trained staff ensures a secure and nurturing environment for your child, giving you peace of mind.",
   },
   {
     id: 4,

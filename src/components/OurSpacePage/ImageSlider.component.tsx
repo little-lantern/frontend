@@ -77,7 +77,7 @@ const ImageSliderComponent: React.FC = () => {
             data.map((item) => (
               <SwiperSlide className={styles.box} key={item.id}>
                 <img className={styles.sliderImg} src={item.imgUrl} alt="" />
-                <div className={styles.caption}>{item.caption}</div>
+                {/* <div className={styles.caption}>{item.caption}</div> */}
               </SwiperSlide>
             ))}
         </Swiper>
