@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./WorkingAt.component.module.scss";
 import ClosePeople from "../../assets/images/work-with-close-up-people.png";
-import ImpactfulWorkIcon from "../../assets/images/work-hand-up-icon.png";
-import CollaborativeEnvironmentIcon from "../../assets/images/work-three-arrow-icon.png";
-import ProfessionalGrowthIcon from "../../assets/images/work-mind-icon.png";
-import SupportiveCultureIcon from "../../assets/images/work-togethor-icon.png";
+import ImpactfulWorkIcon from "../../assets/images/work-hand-up-icon.svg";
+import CollaborativeEnvironmentIcon from "../../assets/images/work-three-arrow-icon.svg";
+import ProfessionalGrowthIcon from "../../assets/images/work-mind-icon.svg";
+import SupportiveCultureIcon from "../../assets/images/work-togethor-icon.svg";
 
 const dataJson = [
   {

@@ -19,6 +19,8 @@ import ApplyNowPage from "./pages/ApplyNow.page";
 import PrivacyPolicyPage from "./pages/PrivacyPolicy.page";
 import TermsOfUsePage from "./pages/TermsOfUse.page";
 import ScrollToTop from "./components/ScrollToTop.component";
+import ThankYouPage from "./pages/ThankYou.page";
+import ErrorPage from "./pages/Error.page";
 const App: React.FC = () => {
   return (
     <Router>
@@ -39,6 +41,8 @@ const App: React.FC = () => {
           <Route path="/apply-now" element={<ApplyNowPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/terms-of-use" element={<TermsOfUsePage />} />
+          <Route path="/thank-you" element={<ThankYouPage />} />
+          <Route path="/error" element={<ErrorPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

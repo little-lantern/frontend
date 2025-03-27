@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    background: #222c5d;
+    border-radius: 16px;
+    margin: 50px auto;
+    position: relative;
+    padding: 100px;
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 3;
+    }
+    .userIcon {
+      position: relative;
+      z-index: 2;
+      display: block;
+      img {
+        display: block;
+      }
+    }
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 48px;
+      position: relative;
+      z-index: 2;
+    }
+    p {
+      display: block;
+      text-align: center;
+      padding: 10px 10px;
+      color: #fff;
+      font-size: 24px;
+      line-height: 38px;
+      position: relative;
+      z-index: 2;
+      padding-bottom: 40px;
+    }
+  }
+}

@@ -89,11 +89,11 @@ const ActivityHubPage: React.FC = () => {
         and teamwork. Discover a variety of engaging after-school activities
         that make learning fun and enriching for kids of all ages.
       </p>
-      {!isMobile && <ActivityTabComponent tabs={tabData} />}
+      {/* {!isMobile && <ActivityTabComponent tabs={tabData} />}
       {isMobile && <ActivityMobileComponent tabs={tabData} />}
       <div className={styles.btnBox}>
         <Link to="/contact-us">Enquire Now</Link>
-      </div>
+      </div> */}
     </div>
   );
 };

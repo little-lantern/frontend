@@ -23,14 +23,18 @@ const WorkInfoComponent: React.FC = () => {
               <br /> <br />
               If you’re eager to contribute to a meaningful cause and be part of
               a dynamic, child-centered team, we’d love to hear from you. Please
-              fill out the form below to apply.
-              <br />
+              send us your resume at{" "}
+              <a href="mailto:careers@littlelantern.in">
+                careers@littlelantern.in
+              </a>
+              .
+              <br /> <br />
               Let’s light up the path to a brighter future for children
               together!
             </div>
-            <div className={styles.btn}>
+            {/* <div className={styles.btn}>
               <Link to="/contact-us">Contact Us</Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
