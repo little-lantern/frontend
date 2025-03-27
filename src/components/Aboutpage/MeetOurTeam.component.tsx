@@ -5,7 +5,7 @@ import closeIcon from "../../assets/images/team-close-icon.svg";
 
 const teamData = [
   {
-    name: "Name Surname",
+    name: "Name Surname 1",
     designation: "Designation",
     image: moatTeamOne,
     content:
@@ -13,7 +13,7 @@ const teamData = [
     id: "1",
   },
   {
-    name: "Name Surname",
+    name: "Name Surname 2",
     designation: "Designation",
     image: moatTeamOne,
     content:
