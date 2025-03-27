@@ -33,7 +33,7 @@ const dataJson = [
     color: "#7771D7",
     icon: spaceAgeAppropriateFurnitureIcon,
     title: "Age-appropriate furniture",
-    content: "same as what you have written",
+    content: "Rounded edges, non-toxic materials, and ergonomic design",
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ const dataJson = [
     color: "#06B3DB",
     icon: spaceCctvSurveillanceIcon,
     title: "CCTV Surveillance",
-    content: "same as what you have written",
+    content: "24/7 monitoring for child safety and security.",
   },
   {
     id: 6,
