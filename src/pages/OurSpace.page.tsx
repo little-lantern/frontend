@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./OurSpace.page.module.scss";
-import TopVideoComponent from "../components/OurSpacePage/TopVideo.component";
+// import TopVideoComponent from "../components/OurSpacePage/TopVideo.component";
 import ImageSliderComponent from "../components/OurSpacePage/ImageSlider.component";
 import FeaturesComponent from "../components/OurSpacePage/Features.component";
 

@@ -5,7 +5,7 @@ import InfoStripComponent from "../components/Homepage/InfoStrip.component";
 import OurSpaceComponent from "../components/Homepage/OurSpace.component";
 import OurProgramsComponents from "../components/Homepage/OurPrograms.component";
 import ZoneAndAreaComponent from "../components/Homepage/ZoneAndArea.component";
-import VideoEmbedComponent from "../components/Homepage/VideoEmbed.component";
+// import VideoEmbedComponent from "../components/Homepage/VideoEmbed.component";
 import LearningsComponent from "../components/Homepage/Learnings.component";
 import ActivityHubComponent from "../components/Homepage/ActivityHub.component";
 import AdmissionComponent from "../components/Homepage/Admission.component";

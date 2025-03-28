@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import styles from "./AboutPage.module.scss"; // SCSS for styling
-import TopTitleImageComponent from "../components/Aboutpage/TopTitleImage.component";
+// import TopTitleImageComponent from "../components/Aboutpage/TopTitleImage.component";
 import MissionPhilosophyComponent from "../components/Aboutpage/MissionPhilosophy.component";
 import TheLanternDifferenceComponent from "../components/Aboutpage/TheLanternDifference.component";
 import OurFounderComponent from "../components/Aboutpage/OurFounder.component";
 import { useLocation } from "react-router-dom";
 import useIsMobile from "../hooks/useIsMobile";
-import MeetOurTeamComponent from "../components/Aboutpage/MeetOurTeam.component";
+// import MeetOurTeamComponent from "../components/Aboutpage/MeetOurTeam.component";
 
 const AboutPage: React.FC = () => {
   const location = useLocation();

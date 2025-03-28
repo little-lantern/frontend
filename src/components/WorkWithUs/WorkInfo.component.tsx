@@ -1,8 +1,6 @@
 import React from "react";
-
 import styles from "./WorkInfo.component.module.scss";
 import BannerContact from "../../assets/images/work-with-contact.png";
-import { Link } from "react-router-dom";
 
 const WorkInfoComponent: React.FC = () => {
   return (
