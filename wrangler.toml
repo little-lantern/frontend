@@ -6,6 +6,14 @@ routes = [
   { pattern = "littlelantern.in", custom_domain = true }
 ]
 
+[site]
+bucket = "./build"  # Ensure this points to your React build output
+
 [build]
 command = "npm run build"
-upload.format = "service-worker"
+upload.format = "modules"  # Service worker is not needed for static sites
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
