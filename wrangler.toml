@@ -3,6 +3,7 @@ type = "javascript"
 account_id = "5965dcfa5a63c18e2c1c816ac52ce52e"
 workers_dev = true
 route = "https://littlelantern.in/*"
+compatibility_date = "2024-03-28"
 
 [[redirects]]
 from = "/*"
