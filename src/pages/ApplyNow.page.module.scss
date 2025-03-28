@@ -23,6 +23,11 @@
     border-radius: 20px;
     background: #fff;
     margin: 20px 0px;
+    iframe {
+      display: block;
+      width: 100%;
+      border: none;
+    }
   }
 }
 

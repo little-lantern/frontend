@@ -89,6 +89,12 @@ const ActivityHubPage: React.FC = () => {
         and teamwork. Discover a variety of engaging after-school activities
         that make learning fun and enriching for kids of all ages.
       </p>
+
+      <p className={styles.description}>
+        Details coming soon! For any queries, contact us at{" "}
+        <a href="mailto:info@littlelantern.in">info@littlelantern.in</a> or{" "}
+        <a href="tel:89100006463">89100006463</a>.
+      </p>
       {/* {!isMobile && <ActivityTabComponent tabs={tabData} />}
       {isMobile && <ActivityMobileComponent tabs={tabData} />}
       <div className={styles.btnBox}>
