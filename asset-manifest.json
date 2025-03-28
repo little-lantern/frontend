@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.9db7c3ec.css",
-    "main.js": "/frontend/static/js/main.3fcb3591.js",
+    "main.css": "/frontend/static/css/main.888c3f98.css",
+    "main.js": "/frontend/static/js/main.bf2c5aac.js",
     "static/media/overview-hero-image.png": "/frontend/static/media/overview-hero-image.2dd53d0e4711a5810a02.png",
-    "static/media/hero-image-about-01.jpg": "/frontend/static/media/hero-image-about-01.b48cdc1e08dd41c58d3f.jpg",
     "static/media/slider-4-3.jpg": "/frontend/static/media/slider-4-3.1d2d568cc6ed875e729e.jpg",
     "static/media/playing-with-kids.png": "/frontend/static/media/playing-with-kids.d44827125717472a7c29.png",
     "static/media/slider-4-5.jpg": "/frontend/static/media/slider-4-5.a8f2e7e38a692099fe0e.jpg",
@@ -57,25 +56,35 @@
     "static/media/founder-img.png": "/frontend/static/media/founder-img.40aed6f6b87e8a320a0b.png",
     "static/media/little-boy.png": "/frontend/static/media/little-boy.e602f12b4a500cbf084f.png",
     "static/media/mobile-image-learning-image.png": "/frontend/static/media/mobile-image-learning-image.1bd4115cd4e0436dae38.png",
+    "static/media/moat-team-01.png": "/frontend/static/media/moat-team-01.9b7080b102fabc94f127.png",
+    "static/media/work-mind-icon.svg": "/frontend/static/media/work-mind-icon.a646e573f2b24c3728fe6219443fcb78.svg",
     "static/media/envelop-icon.png": "/frontend/static/media/envelop-icon.644ebaa6324d185fb06b.png",
     "static/media/founder-env-icon.png": "/frontend/static/media/founder-env-icon.271a4274afda549fd9ab.png",
     "static/media/collaboration-icon.svg": "/frontend/static/media/collaboration-icon.79a87641a478753f12ff258fa79a65e7.svg",
+    "static/media/work-togethor-icon.svg": "/frontend/static/media/work-togethor-icon.d19e076437c3d432ed44e38f61b99d19.svg",
     "static/media/logo-blue.svg": "/frontend/static/media/logo-blue.6c517128b6d30362f229f2f51afe3074.svg",
     "static/media/logo.svg": "/frontend/static/media/logo.10709622b880b2c3ed6ce7134a1d07b1.svg",
     "static/media/expriment-icon.svg": "/frontend/static/media/expriment-icon.53e540df938a2fdbe29a64287d849a2a.svg",
     "static/media/env-icon.svg": "/frontend/static/media/env-icon.36f7f15cbd7dd1102a933678e56b0e5a.svg",
+    "static/media/work-three-arrow-icon.svg": "/frontend/static/media/work-three-arrow-icon.6a2cd7788643c553d49611e0de5dc350.svg",
+    "static/media/work-hand-up-icon.svg": "/frontend/static/media/work-hand-up-icon.2890d8c46435ac2ec02685475cecd277.svg",
     "static/media/approch-icon.svg": "/frontend/static/media/approch-icon.e93693cd78187c4631e075bb23446eb6.svg",
     "index.html": "/frontend/index.html",
+    "static/media/thumbs-icon.svg": "/frontend/static/media/thumbs-icon.6a0e652d3306f79670866a820b27e87e.svg",
+    "static/media/user-icon-thank.svg": "/frontend/static/media/user-icon-thank.12c7422900438c3c438257e70423c3cb.svg",
+    "static/media/close-icon.svg": "/frontend/static/media/close-icon.f592583e96bde5340633e6dd090560d2.svg",
+    "static/media/error-logo.svg": "/frontend/static/media/error-logo.1feca28aa73c5e637be6aef14daa40e2.svg",
     "static/media/arrow-link.svg": "/frontend/static/media/arrow-link.c8b6d79063fa3de477de12c27b61fbdf.svg",
     "static/media/menu-bar.svg": "/frontend/static/media/menu-bar.7cae1669122501d15ac46a76c480ee18.svg",
     "static/media/dropdown-arrow.svg": "/frontend/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
     "static/media/prev-arrow.svg": "/frontend/static/media/prev-arrow.68e3be07e6ea572bb832e139d2c22eab.svg",
     "static/media/next-arrow.svg": "/frontend/static/media/next-arrow.3654db3fd53260675a2f6eb658ea5d7a.svg",
-    "main.9db7c3ec.css.map": "/frontend/static/css/main.9db7c3ec.css.map",
-    "main.3fcb3591.js.map": "/frontend/static/js/main.3fcb3591.js.map"
+    "static/media/team-close-icon.svg": "/frontend/static/media/team-close-icon.de8a852a1593c906e624fac9580684d4.svg",
+    "main.888c3f98.css.map": "/frontend/static/css/main.888c3f98.css.map",
+    "main.bf2c5aac.js.map": "/frontend/static/js/main.bf2c5aac.js.map"
   },
   "entrypoints": [
-    "static/css/main.9db7c3ec.css",
-    "static/js/main.3fcb3591.js"
+    "static/css/main.888c3f98.css",
+    "static/js/main.bf2c5aac.js"
   ]
 }
