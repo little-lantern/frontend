@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import HomePage from "./pages/Home.page";
 import AboutPage from "./pages/About.page";
 import "./App.scss";
-// import NotFound from "./pages/NotFound";
+import NotFound from "./pages/NotFound";
 import ExplorePlayLearnComponent from "./components/Homepage/ExplorePlayLearn.component";
 import ContactPage from "./pages/Contact.page";
 import ProgramsPage from "./pages/Programs.page";
@@ -43,7 +43,7 @@ const App: React.FC = () => {
           <Route path="/terms-of-use" element={<TermsOfUsePage />} />
           <Route path="/thank-you" element={<ThankYouPage />} />
           <Route path="/error" element={<ErrorPage />} />
-          {/* <Route path="*" element={<NotFound />} /> */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <ExplorePlayLearnComponent />
