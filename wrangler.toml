@@ -9,3 +9,11 @@ routes = [
 [build]
 command = "npm run build"
 upload.format = "service-worker"
+
+[site]
+bucket = "./build"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
