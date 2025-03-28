@@ -7,11 +7,11 @@ routes = [
 ]
 
 [site]
-bucket = "./build"  # Ensure this points to your React build output
+bucket = "./build"  # Serve files from React build output
 
 [build]
 command = "npm run build"
-upload.format = "modules"  # Service worker is not needed for static sites
+upload.format = "modules"  # No service worker needed
 
 [[redirects]]
 from = "/*"
