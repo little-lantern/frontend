@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontend/static/css/main.a3904725.css",
-    "main.js": "/frontend/static/js/main.26438597.js",
+    "main.js": "/frontend/static/js/main.97ba0ff2.js",
     "static/media/overview-hero-image.png": "/frontend/static/media/overview-hero-image.2dd53d0e4711a5810a02.png",
     "static/media/slider-4-3.jpg": "/frontend/static/media/slider-4-3.1d2d568cc6ed875e729e.jpg",
     "static/media/playing-with-kids.png": "/frontend/static/media/playing-with-kids.d44827125717472a7c29.png",
@@ -73,10 +73,10 @@
     "static/media/prev-arrow.svg": "/frontend/static/media/prev-arrow.68e3be07e6ea572bb832e139d2c22eab.svg",
     "static/media/next-arrow.svg": "/frontend/static/media/next-arrow.3654db3fd53260675a2f6eb658ea5d7a.svg",
     "main.a3904725.css.map": "/frontend/static/css/main.a3904725.css.map",
-    "main.26438597.js.map": "/frontend/static/js/main.26438597.js.map"
+    "main.97ba0ff2.js.map": "/frontend/static/js/main.97ba0ff2.js.map"
   },
   "entrypoints": [
     "static/css/main.a3904725.css",
-    "static/js/main.26438597.js"
+    "static/js/main.97ba0ff2.js"
   ]
 }
