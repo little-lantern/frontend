@@ -138,9 +138,72 @@
 
 @media (max-width: 768px) {
   .container {
+    padding: 0px 10px 20px 10px;
     .mainTitle {
       font-size: 32px;
-      padding: 30px;
+      padding: 0px 30px 20px 30px;
+    }
+    .teamBox {
+      .box {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        .details {
+          strong {
+            font-size: 16px;
+          }
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .popupWrapper {
+      padding: 20px;
+      .innerPopup {
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px;
+        .close {
+          right: 25px;
+          top: 25px;
+          cursor: pointer;
+          height: 40px;
+          width: 40px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            display: block;
+            width: 20px;
+          }
+        }
+        .leftBox {
+          max-width: 100%;
+          min-width: 100%;
+          margin-right: 0px;
+          img {
+            display: block;
+            border-radius: 10px;
+            width: 100%;
+          }
+        }
+        .rightBox {
+          display: block;
+          .topBox {
+            strong {
+              font-size: 16px;
+            }
+            span {
+              font-size: 14px;
+            }
+          }
+          .bottomBox {
+            padding: 10px 0px;
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
 }
