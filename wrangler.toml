@@ -1,6 +1,12 @@
-[site]
-bucket = "./build"
+name = "worker-script"
+type = "javascript"
+account_id = "your-account-id"
+workers_dev = true
 
-[[routes]]
-routes = ["littlelantern.in/*"]
-script = "worker-script"
+routes = [
+  { pattern = "littlelantern.in/*", custom_domain = true }
+]
+
+[build]
+command = "npm run build"
+upload.format = "service-worker"
