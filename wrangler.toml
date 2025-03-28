@@ -6,14 +6,6 @@ routes = [
   { pattern = "littlelantern.in", custom_domain = true }
 ]
 
-[site]
-bucket = "./build"  # Serve files from React build output
-
 [build]
 command = "npm run build"
-upload.format = "modules"  # No service worker needed
-
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+upload.format = "service-worker"
