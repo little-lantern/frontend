@@ -1,4 +1,4 @@
-name = "worker-script"
+name = "little-lantern-website"
 type = "javascript"
 account_id = "5965dcfa5a63c18e2c1c816ac52ce52e"
 workers_dev = true
