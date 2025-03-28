@@ -34,7 +34,7 @@ const AboutPage: React.FC = () => {
       <MissionPhilosophyComponent />
       <TheLanternDifferenceComponent />
       <OurFounderComponent />
-      <MeetOurTeamComponent />
+      {/* <MeetOurTeamComponent /> */}
     </div>
   );
 };
