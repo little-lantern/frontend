@@ -9,6 +9,7 @@
     img {
       border-radius: 20px;
       display: block;
+      width: 100%;
     }
   }
   .swiper-container {
@@ -23,7 +24,6 @@
     cursor: pointer;
     background: none;
     z-index: 2;
-    display: none;
   }
 
   .left {

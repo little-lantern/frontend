@@ -15,7 +15,7 @@ const ApplyNowPage: React.FC = () => {
         <div className={styles.formBox}>
           <iframe
             src="https://form.illumine.app/publicForm/?applicationId=-OK_DVO8JABctKDF2nD6&centerId=LittleLantern_Master-Branch"
-            height={isMobile ? "500" : "600"}
+            height={isMobile ? "1500" : "1600"}
             style={{ border: "0" }}
             allowFullScreen
             loading="lazy"

@@ -29,7 +29,7 @@ const AdmissionTopSliderComponent: React.FC = () => {
           <img src={prevArrow} alt="" />
         </button>
         <Swiper
-          slidesPerView={2.5}
+          slidesPerView={1.5}
           spaceBetween={10}
           loop={false}
           speed={5000}
@@ -37,9 +37,9 @@ const AdmissionTopSliderComponent: React.FC = () => {
             delay: 2000,
             disableOnInteraction: false,
           }}
-          modules={[Autoplay, Navigation]} // ✅ Include Navigation module
+          modules={[Autoplay, Navigation]}
           navigation={{
-            nextEl: "#nextSlide", // ✅ Connect to buttons
+            nextEl: "#nextSlide",
             prevEl: "#prevSlide",
           }}
           onSwiper={(swiper: SwiperClass) => {
@@ -51,7 +51,7 @@ const AdmissionTopSliderComponent: React.FC = () => {
           breakpoints={{
             320: { slidesPerView: 1 },
             480: { slidesPerView: 1 },
-            768: { slidesPerView: 2.5 },
+            768: { slidesPerView: 1.5 },
           }}
         >
           <SwiperSlide>
