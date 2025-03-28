@@ -1,0 +1,6 @@
+[site]
+bucket = "./build"
+
+[[routes]]
+pattern = "littlelantern.in/*"
+script = "worker-script"
