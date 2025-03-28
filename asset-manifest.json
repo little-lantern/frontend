@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.68bf6199.css",
-    "main.js": "/frontend/static/js/main.f7873414.js",
+    "main.css": "/frontend/static/css/main.a3904725.css",
+    "main.js": "/frontend/static/js/main.26438597.js",
     "static/media/overview-hero-image.png": "/frontend/static/media/overview-hero-image.2dd53d0e4711a5810a02.png",
     "static/media/slider-4-3.jpg": "/frontend/static/media/slider-4-3.1d2d568cc6ed875e729e.jpg",
     "static/media/playing-with-kids.png": "/frontend/static/media/playing-with-kids.d44827125717472a7c29.png",
@@ -15,7 +15,6 @@
     "static/media/program-tab-05.png": "/frontend/static/media/program-tab-05.e5801a376f7e9ff00b4d.png",
     "static/media/slider-4-1.jpg": "/frontend/static/media/slider-4-1.4fd482bbc9a4e166dd1a.jpg",
     "static/media/slider-4-7.jpg": "/frontend/static/media/slider-4-7.d263f15db27fe31ef098.jpg",
-    "static/media/pottery-img.png": "/frontend/static/media/pottery-img.1228a4fb19ae7005c6eb.png",
     "static/media/slider-4-10.jpg": "/frontend/static/media/slider-4-10.f6e418f4b089b1b84568.jpg",
     "static/media/slider-4-13.jpg": "/frontend/static/media/slider-4-13.311932731bf71fb95ee7.jpg",
     "static/media/program-tab-03.png": "/frontend/static/media/program-tab-03.4c4f3f8ccaf524df9403.png",
@@ -25,16 +24,11 @@
     "static/media/program-tab-02.png": "/frontend/static/media/program-tab-02.9a9d3c7587b35d004a96.png",
     "static/media/work-with-contact.png": "/frontend/static/media/work-with-contact.2b2e52f1e3d94b24fbce.png",
     "static/media/explore-kids-img.png": "/frontend/static/media/explore-kids-img.6a8317e5bfa1b968acd3.png",
-    "static/media/messy-place-img.png": "/frontend/static/media/messy-place-img.d6e28630f45fb184d2e1.png",
-    "static/media/dance-img.png": "/frontend/static/media/dance-img.5f234864a7b11703b935.png",
     "static/media/home-page-girl.png": "/frontend/static/media/home-page-girl.51e39851526f0435270e.png",
     "static/media/slider-4-6.jpg": "/frontend/static/media/slider-4-6.44935d90ecbb2a6400be.jpg",
-    "static/media/gymnastics-img.png": "/frontend/static/media/gymnastics-img.3dcc1f7236c923392390.png",
     "static/media/admission-slide-04.png": "/frontend/static/media/admission-slide-04.c8703187e966336ec39a.png",
     "static/media/our-mission-01.png": "/frontend/static/media/our-mission-01.e55852eaa450bde7bb83.png",
-    "static/media/yoga-img.png": "/frontend/static/media/yoga-img.a009a8860d88b903bd06.png",
     "static/media/work-with-us-top-banner.png": "/frontend/static/media/work-with-us-top-banner.550d54a1230985d870b6.png",
-    "static/media/karate-img.png": "/frontend/static/media/karate-img.e085608c89ccd03137d3.png",
     "static/media/about-philosphy-01.png": "/frontend/static/media/about-philosphy-01.737fe809d7b3bf82aec1.png",
     "static/media/hub-boy-img.png": "/frontend/static/media/hub-boy-img.6b85b9274764ae258f32.png",
     "static/media/admission-slide-03.png": "/frontend/static/media/admission-slide-03.47e3143c4c2dad36d62c.png",
@@ -78,11 +72,11 @@
     "static/media/dropdown-arrow.svg": "/frontend/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
     "static/media/prev-arrow.svg": "/frontend/static/media/prev-arrow.68e3be07e6ea572bb832e139d2c22eab.svg",
     "static/media/next-arrow.svg": "/frontend/static/media/next-arrow.3654db3fd53260675a2f6eb658ea5d7a.svg",
-    "main.68bf6199.css.map": "/frontend/static/css/main.68bf6199.css.map",
-    "main.f7873414.js.map": "/frontend/static/js/main.f7873414.js.map"
+    "main.a3904725.css.map": "/frontend/static/css/main.a3904725.css.map",
+    "main.26438597.js.map": "/frontend/static/js/main.26438597.js.map"
   },
   "entrypoints": [
-    "static/css/main.68bf6199.css",
-    "static/js/main.f7873414.js"
+    "static/css/main.a3904725.css",
+    "static/js/main.26438597.js"
   ]
 }
