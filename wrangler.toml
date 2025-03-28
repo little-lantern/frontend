@@ -2,5 +2,5 @@
 bucket = "./build"
 
 [[routes]]
-pattern = "littlelantern.in/*"
+routes = ["littlelantern.in/*"]
 script = "worker-script"
