@@ -1,0 +1,5 @@
+name = "little-lantern-website"
+
+[build]
+command = "npm run build"
+output_dir = "build"
