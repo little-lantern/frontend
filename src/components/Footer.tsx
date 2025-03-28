@@ -56,16 +56,22 @@ const Footer: React.FC = () => {
         <div className={styles.bottomBox}>
           <ul className={styles.socialShareBox}>
             <li>
-              <Link to="/" target="_blank">
+              <Link
+                to="https://www.facebook.com/profile.php?id=61574933842733"
+                target="_blank"
+              >
                 <img src={faceBookIcon} alt="facebook" />
               </Link>
             </li>
             <li>
-              <Link to="/" target="_blank">
+              <Link
+                to="https://www.instagram.com/littlelanternindia?igsh=MWgzdGd6cGQ3MzZmag=="
+                target="_blank"
+              >
                 <img src={instagramIcon} alt="instagram" />
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/" target="_blank">
                 <img src={twitterIcon} alt="Twitter" />
               </Link>
@@ -74,7 +80,7 @@ const Footer: React.FC = () => {
               <Link to="/" target="_blank">
                 <img src={youtubeIcon} alt="Youtube" />
               </Link>
-            </li>
+            </li> */}
           </ul>
           <div className={styles.policies}>
             <p>
