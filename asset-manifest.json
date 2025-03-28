@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.bc835843.css",
-    "main.js": "/frontend/static/js/main.ceb953c2.js",
+    "main.css": "/frontend/static/css/main.68bf6199.css",
+    "main.js": "/frontend/static/js/main.f7873414.js",
     "static/media/overview-hero-image.png": "/frontend/static/media/overview-hero-image.2dd53d0e4711a5810a02.png",
     "static/media/slider-4-3.jpg": "/frontend/static/media/slider-4-3.1d2d568cc6ed875e729e.jpg",
     "static/media/playing-with-kids.png": "/frontend/static/media/playing-with-kids.d44827125717472a7c29.png",
@@ -78,11 +78,11 @@
     "static/media/dropdown-arrow.svg": "/frontend/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
     "static/media/prev-arrow.svg": "/frontend/static/media/prev-arrow.68e3be07e6ea572bb832e139d2c22eab.svg",
     "static/media/next-arrow.svg": "/frontend/static/media/next-arrow.3654db3fd53260675a2f6eb658ea5d7a.svg",
-    "main.bc835843.css.map": "/frontend/static/css/main.bc835843.css.map",
-    "main.ceb953c2.js.map": "/frontend/static/js/main.ceb953c2.js.map"
+    "main.68bf6199.css.map": "/frontend/static/css/main.68bf6199.css.map",
+    "main.f7873414.js.map": "/frontend/static/js/main.f7873414.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc835843.css",
-    "static/js/main.ceb953c2.js"
+    "static/css/main.68bf6199.css",
+    "static/js/main.f7873414.js"
   ]
 }
