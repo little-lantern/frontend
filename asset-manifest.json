@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.888c3f98.css",
-    "main.js": "/frontend/static/js/main.bf2c5aac.js",
+    "main.css": "/frontend/static/css/main.bc835843.css",
+    "main.js": "/frontend/static/js/main.ceb953c2.js",
     "static/media/overview-hero-image.png": "/frontend/static/media/overview-hero-image.2dd53d0e4711a5810a02.png",
     "static/media/slider-4-3.jpg": "/frontend/static/media/slider-4-3.1d2d568cc6ed875e729e.jpg",
     "static/media/playing-with-kids.png": "/frontend/static/media/playing-with-kids.d44827125717472a7c29.png",
@@ -56,7 +56,6 @@
     "static/media/founder-img.png": "/frontend/static/media/founder-img.40aed6f6b87e8a320a0b.png",
     "static/media/little-boy.png": "/frontend/static/media/little-boy.e602f12b4a500cbf084f.png",
     "static/media/mobile-image-learning-image.png": "/frontend/static/media/mobile-image-learning-image.1bd4115cd4e0436dae38.png",
-    "static/media/moat-team-01.png": "/frontend/static/media/moat-team-01.9b7080b102fabc94f127.png",
     "static/media/work-mind-icon.svg": "/frontend/static/media/work-mind-icon.a646e573f2b24c3728fe6219443fcb78.svg",
     "static/media/envelop-icon.png": "/frontend/static/media/envelop-icon.644ebaa6324d185fb06b.png",
     "static/media/founder-env-icon.png": "/frontend/static/media/founder-env-icon.271a4274afda549fd9ab.png",
@@ -79,12 +78,11 @@
     "static/media/dropdown-arrow.svg": "/frontend/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
     "static/media/prev-arrow.svg": "/frontend/static/media/prev-arrow.68e3be07e6ea572bb832e139d2c22eab.svg",
     "static/media/next-arrow.svg": "/frontend/static/media/next-arrow.3654db3fd53260675a2f6eb658ea5d7a.svg",
-    "static/media/team-close-icon.svg": "/frontend/static/media/team-close-icon.de8a852a1593c906e624fac9580684d4.svg",
-    "main.888c3f98.css.map": "/frontend/static/css/main.888c3f98.css.map",
-    "main.bf2c5aac.js.map": "/frontend/static/js/main.bf2c5aac.js.map"
+    "main.bc835843.css.map": "/frontend/static/css/main.bc835843.css.map",
+    "main.ceb953c2.js.map": "/frontend/static/js/main.ceb953c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.888c3f98.css",
-    "static/js/main.bf2c5aac.js"
+    "static/css/main.bc835843.css",
+    "static/js/main.ceb953c2.js"
   ]
 }
