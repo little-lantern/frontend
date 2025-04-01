@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.a3904725.css",
-    "main.js": "/frontend/static/js/main.3109b147.js",
+    "main.css": "/frontend/static/css/main.64bf16b9.css",
+    "main.js": "/frontend/static/js/main.cfe67960.js",
     "static/media/overview-hero-image.png": "/frontend/static/media/overview-hero-image.2dd53d0e4711a5810a02.png",
     "static/media/slider-4-3.jpg": "/frontend/static/media/slider-4-3.1d2d568cc6ed875e729e.jpg",
     "static/media/playing-with-kids.png": "/frontend/static/media/playing-with-kids.d44827125717472a7c29.png",
@@ -43,16 +43,14 @@
     "static/media/overview-04.png": "/frontend/static/media/overview-04.856388384a368019307e.png",
     "static/media/learning-time-img.png": "/frontend/static/media/learning-time-img.850efb3e1277b4e2dc1a.png",
     "static/media/explore-time-img.png": "/frontend/static/media/explore-time-img.857b183d03932589887c.png",
+    "static/media/shubh-agarwal.png": "/frontend/static/media/shubh-agarwal.7996ea2a6b0ad82c9e5c.png",
     "static/media/smiling-girl.png": "/frontend/static/media/smiling-girl.7b3af8548fb0fa4710ff.png",
     "static/media/little-boy-with-hands.png": "/frontend/static/media/little-boy-with-hands.15820e8eb3c1b02b46f5.png",
     "static/media/insta-feed-01.png": "/frontend/static/media/insta-feed-01.bab05b5118b9a55125e2.png",
     "static/media/desktop-image-learning-image.png": "/frontend/static/media/desktop-image-learning-image.fe19973dff8acf580fef.png",
-    "static/media/founder-img.png": "/frontend/static/media/founder-img.40aed6f6b87e8a320a0b.png",
     "static/media/little-boy.png": "/frontend/static/media/little-boy.e602f12b4a500cbf084f.png",
     "static/media/mobile-image-learning-image.png": "/frontend/static/media/mobile-image-learning-image.1bd4115cd4e0436dae38.png",
     "static/media/work-mind-icon.svg": "/frontend/static/media/work-mind-icon.a646e573f2b24c3728fe6219443fcb78.svg",
-    "static/media/envelop-icon.png": "/frontend/static/media/envelop-icon.644ebaa6324d185fb06b.png",
-    "static/media/founder-env-icon.png": "/frontend/static/media/founder-env-icon.271a4274afda549fd9ab.png",
     "static/media/collaboration-icon.svg": "/frontend/static/media/collaboration-icon.79a87641a478753f12ff258fa79a65e7.svg",
     "static/media/work-togethor-icon.svg": "/frontend/static/media/work-togethor-icon.d19e076437c3d432ed44e38f61b99d19.svg",
     "static/media/logo-blue.svg": "/frontend/static/media/logo-blue.6c517128b6d30362f229f2f51afe3074.svg",
@@ -72,11 +70,11 @@
     "static/media/dropdown-arrow.svg": "/frontend/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
     "static/media/prev-arrow.svg": "/frontend/static/media/prev-arrow.68e3be07e6ea572bb832e139d2c22eab.svg",
     "static/media/next-arrow.svg": "/frontend/static/media/next-arrow.3654db3fd53260675a2f6eb658ea5d7a.svg",
-    "main.a3904725.css.map": "/frontend/static/css/main.a3904725.css.map",
-    "main.3109b147.js.map": "/frontend/static/js/main.3109b147.js.map"
+    "main.64bf16b9.css.map": "/frontend/static/css/main.64bf16b9.css.map",
+    "main.cfe67960.js.map": "/frontend/static/js/main.cfe67960.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3904725.css",
-    "static/js/main.3109b147.js"
+    "static/css/main.64bf16b9.css",
+    "static/js/main.cfe67960.js"
   ]
 }
