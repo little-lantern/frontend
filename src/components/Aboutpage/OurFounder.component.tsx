@@ -1,21 +1,21 @@
 import React from "react";
 import styles from "./OurFounder.component.module.scss";
-import EnvelopIcon from "../../assets/images/envelop-icon.png";
+// import EnvelopIcon from "../../assets/images/envelop-icon.png";
 import StepIcon from "../../assets/images/founder-step-icon.png";
 import StepLineIcon from "../../assets/images/founder-3-icon.png";
-import FounderImage from "../../assets/images/founder-img.png";
-import SigneIcon from "../../assets/images/sign-icon.png";
-import EnvelopIconMobile from "../../assets/images/founder-env-icon.png";
-import useIsMobile from "../../hooks/useIsMobile";
+import FounderImage from "../../assets/images/shubh-agarwal.png";
+// import SigneIcon from "../../assets/images/sign-icon.png";
+// import EnvelopIconMobile from "../../assets/images/founder-env-icon.png";
+// import useIsMobile from "../../hooks/useIsMobile";
 
 const OurFounderComponent: React.FC = () => {
-  const isMobile = useIsMobile();
-  const envIcon = isMobile ? EnvelopIconMobile : EnvelopIcon;
+  // const isMobile = useIsMobile();
+  // const envIcon = isMobile ? EnvelopIconMobile : EnvelopIcon;
   return (
     <div className={styles.container} id="team">
-      <div className={styles.envIcon}>
+      {/* <div className={styles.envIcon}>
         <img src={envIcon} alt="" />
-      </div>
+      </div> */}
       <div className={styles.founderBox}>
         <div className={styles.founderInfo}>
           <div className={styles.founderPick}>
@@ -24,9 +24,9 @@ const OurFounderComponent: React.FC = () => {
               <strong>Shubh Agarwal Sonthalia</strong>
               <span>Founder, Little Lantern</span>
             </p>
-            <div className={styles.sign}>
+            {/* <div className={styles.sign}>
               <img src={SigneIcon} alt="" />
-            </div>
+            </div> */}
           </div>
           <div className={styles.founderContent}>
             <h2>our founder</h2>
@@ -50,9 +50,9 @@ const OurFounderComponent: React.FC = () => {
               creativity flourishes, and children develop into well-rounded
               individuals ready to embrace the world.
             </p>
-            <div className={styles.sign}>
+            {/* <div className={styles.sign}>
               <img src={SigneIcon} alt="" />
-            </div>
+            </div> */}
           </div>
           <div className={styles.stepIcon}>
             <img src={StepIcon} alt="" />
