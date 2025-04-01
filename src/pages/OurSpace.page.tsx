@@ -19,6 +19,9 @@ const OurSpacePage: React.FC = () => {
       </p>
       {/* <TopVideoComponent /> */}
       <ImageSliderComponent />
+      <p className={styles.description}>
+        Disclaimer: The above are 3D images and may be subject to change.
+      </p>
       <FeaturesComponent />
     </div>
   );

@@ -141,7 +141,7 @@ const programsData: IPrograms[] = [
       <>
         <p>
           Our Kindergarten Program for children aged{" "}
-          <strong>4 to 5 years</strong>, running
+          <strong>4 to 5 years</strong>, running{" "}
           <strong>Monday to Friday for 3.5 hours</strong>, prepares children for
           formal schooling through structured academics, STEM exploration, and
           social-emotional learning. Literacy and numeracy activities build

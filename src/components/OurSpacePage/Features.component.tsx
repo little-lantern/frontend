@@ -67,7 +67,7 @@ const dataJson = [
     icon: spaceChildFriendlyPlaygroundsIcon,
     title: "Child-friendly playgrounds",
     content:
-      "Indoor and outdoor playgrounds with Soft flooring and jungle gyms",
+      "Indoor and outdoor playgrounds with soft flooring and jungle gyms",
   },
   {
     id: 8,
@@ -84,6 +84,7 @@ const FeaturesComponent: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <h2 className={styles.mainTitle}>Features</h2>
+
         <div className={styles.boxWrapper}>
           {dataJson &&
             dataJson.map((item) => (

@@ -24,7 +24,7 @@ const ZoneAndAreaComponent: React.FC = () => {
           <div className={styles.textBox}>
             <h3>1:10</h3>
             <p>
-              Student-Teacher <br />
+              Teacher-Student <br />
               Ratio
             </p>
           </div>
