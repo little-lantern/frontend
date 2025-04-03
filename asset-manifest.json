@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.64bf16b9.css",
-    "main.js": "/frontend/static/js/main.cfe67960.js",
+    "main.css": "/frontend/static/css/main.85d7c601.css",
+    "main.js": "/frontend/static/js/main.e3ecb052.js",
     "static/media/overview-hero-image.png": "/frontend/static/media/overview-hero-image.2dd53d0e4711a5810a02.png",
     "static/media/slider-4-3.jpg": "/frontend/static/media/slider-4-3.1d2d568cc6ed875e729e.jpg",
     "static/media/playing-with-kids.png": "/frontend/static/media/playing-with-kids.d44827125717472a7c29.png",
@@ -44,6 +44,8 @@
     "static/media/learning-time-img.png": "/frontend/static/media/learning-time-img.850efb3e1277b4e2dc1a.png",
     "static/media/explore-time-img.png": "/frontend/static/media/explore-time-img.857b183d03932589887c.png",
     "static/media/shubh-agarwal.png": "/frontend/static/media/shubh-agarwal.7996ea2a6b0ad82c9e5c.png",
+    "static/media/moat-team-01.png": "/frontend/static/media/moat-team-01.f7e8a7ef8cc7e7ddebe8.png",
+    "static/media/moat-team-02.png": "/frontend/static/media/moat-team-02.979daf56fe2efbbfd025.png",
     "static/media/smiling-girl.png": "/frontend/static/media/smiling-girl.7b3af8548fb0fa4710ff.png",
     "static/media/little-boy-with-hands.png": "/frontend/static/media/little-boy-with-hands.15820e8eb3c1b02b46f5.png",
     "static/media/insta-feed-01.png": "/frontend/static/media/insta-feed-01.bab05b5118b9a55125e2.png",
@@ -70,11 +72,11 @@
     "static/media/dropdown-arrow.svg": "/frontend/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
     "static/media/prev-arrow.svg": "/frontend/static/media/prev-arrow.68e3be07e6ea572bb832e139d2c22eab.svg",
     "static/media/next-arrow.svg": "/frontend/static/media/next-arrow.3654db3fd53260675a2f6eb658ea5d7a.svg",
-    "main.64bf16b9.css.map": "/frontend/static/css/main.64bf16b9.css.map",
-    "main.cfe67960.js.map": "/frontend/static/js/main.cfe67960.js.map"
+    "main.85d7c601.css.map": "/frontend/static/css/main.85d7c601.css.map",
+    "main.e3ecb052.js.map": "/frontend/static/js/main.e3ecb052.js.map"
   },
   "entrypoints": [
-    "static/css/main.64bf16b9.css",
-    "static/js/main.cfe67960.js"
+    "static/css/main.85d7c601.css",
+    "static/js/main.e3ecb052.js"
   ]
 }
