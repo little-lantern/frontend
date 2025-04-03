@@ -6,7 +6,7 @@ import TheLanternDifferenceComponent from "../components/Aboutpage/TheLanternDif
 import OurFounderComponent from "../components/Aboutpage/OurFounder.component";
 import { useLocation } from "react-router-dom";
 import useIsMobile from "../hooks/useIsMobile";
-// import MeetOurTeamComponent from "../components/Aboutpage/MeetOurTeam.component";
+import MeetOurTeamComponent from "../components/Aboutpage/MeetOurTeam.component";
 
 const AboutPage: React.FC = () => {
   const location = useLocation();
@@ -34,7 +34,7 @@ const AboutPage: React.FC = () => {
       <MissionPhilosophyComponent />
       <TheLanternDifferenceComponent />
       <OurFounderComponent />
-      {/* <MeetOurTeamComponent /> */}
+      <MeetOurTeamComponent />
     </div>
   );
 };

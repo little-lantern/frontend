@@ -21,17 +21,17 @@
   .teamBox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     .box {
       flex: 1 1 calc(25% - 20px);
       max-width: calc(25% - 20px);
       margin: 10px;
       box-sizing: border-box;
       text-align: center;
-      cursor: pointer;
       .img {
         display: block;
         border-radius: 20px;
+        background: #dcdcdc;
         img {
           width: 100%;
           display: block;
