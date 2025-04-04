@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
             </li>
             <li>
               <Link
-                to="https://www.instagram.com/littlelanternindia?igsh=MWgzdGd6cGQ3MzZmag=="
+                to="https://www.instagram.com/littlelantern.in?igsh=MWgzdGd6cGQ3MzZmag=="
                 target="_blank"
               >
                 <img src={instagramIcon} alt="instagram" />
@@ -132,7 +132,7 @@ const Footer: React.FC = () => {
             </li>
             <li>
               <Link
-                to="https://www.instagram.com/littlelanternindia?igsh=MWgzdGd6cGQ3MzZmag=="
+                to="https://www.instagram.com/littlelantern.in?igsh=MWgzdGd6cGQ3MzZmag=="
                 target="_blank"
               >
                 <img src={instagramIcon} alt="instagram" />

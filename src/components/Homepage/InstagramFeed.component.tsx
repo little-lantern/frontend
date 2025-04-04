@@ -41,7 +41,7 @@ const InstagramFeedComponent: React.FC = () => {
         <div className={styles.btnBox}>
           <Link
             target="_blank"
-            to="https://www.instagram.com/littlelanternindia?igsh=MWgzdGd6cGQ3MzZmag=="
+            to="https://www.instagram.com/littlelantern.in?igsh=MWgzdGd6cGQ3MzZmag=="
           >
             Visit Instagram
           </Link>
