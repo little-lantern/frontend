@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
           <ul className={styles.socialShareBox}>
             <li>
               <Link
-                to="https://www.facebook.com/profile.php?id=61574933842733"
+                to="https://www.facebook.com/littlelantern.in/"
                 target="_blank"
               >
                 <img src={faceBookIcon} alt="facebook" />
@@ -124,7 +124,7 @@ const Footer: React.FC = () => {
           <ul className={styles.socialShareBox}>
             <li>
               <Link
-                to="https://www.facebook.com/profile.php?id=61574933842733"
+                to="https://www.facebook.com/littlelantern.in/"
                 target="_blank"
               >
                 <img src={faceBookIcon} alt="facebook" />
