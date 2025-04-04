@@ -1,6 +1,6 @@
 .container {
   display: block;
-  padding: 100px 0px;
+  padding: 50px 0px;
   position: relative;
   .envIcon {
     display: block;
@@ -101,8 +101,7 @@
 
 @media (max-width: 768px) {
   .container {
-    padding-top: 90px;
-    margin-top: 80px;
+    padding: 20px 0px;
     padding-bottom: 40px;
     .envIcon {
       display: block;
@@ -124,7 +123,7 @@
         }
         .founderPick {
           order: 2;
-          padding: 20px;
+          padding: 0px 20px;
           img {
             display: block;
           }
