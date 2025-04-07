@@ -13,7 +13,10 @@ const InstagramFeedComponent: React.FC = () => {
         <div className={styles.feedBox}>
           <ul>
             <li>
-              <Link to="/">
+              <Link
+                target="_blank"
+                to="https://www.instagram.com/p/DIJNLmLTjZw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              >
                 <span>
                   <img src={instagramIcon} alt="" />
                 </span>
@@ -21,7 +24,10 @@ const InstagramFeedComponent: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link
+                target="_blank"
+                to="https://www.instagram.com/p/DIJNGXNTNY7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              >
                 <span>
                   <img src={instagramIcon} alt="" />
                 </span>
@@ -29,7 +35,10 @@ const InstagramFeedComponent: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link
+                target="_blank"
+                to="https://www.instagram.com/p/DIJL5tnT5wG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              >
                 <span>
                   <img src={instagramIcon} alt="" />
                 </span>
