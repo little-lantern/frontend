@@ -1,79 +1,105 @@
 import React from "react";
 import styles from "./ActivityHub.page.module.scss";
-// import { ActivityTab } from "../components/ActivityHubPage/ActivityTab.component";
-// import gymnasticsImg from "../assets/images/gymnastics-img.png";
-// import karateImg from "../assets/images/karate-img.png";
-// import yogaImg from "../assets/images/yoga-img.png";
-// import messyPlayImg from "../assets/images/messy-place-img.png";
-// import potteryImg from "../assets/images/pottery-img.png";
-// import danceImg from "../assets/images/dance-img.png";
+import ActivityTabComponent, {
+  ActivityTab,
+} from "../components/ActivityHubPage/ActivityTab.component";
+import storyTelling from "../assets/images/storyTelling.jpg";
+import speechDrama from "../assets/images/speechDrama.jpg";
+import ballet from "../assets/images/ballet.jpg";
+import vocalMusic from "../assets/images/vocalMusic.jpg";
+import artCraft from "../assets/images/artCraft.jpg";
+import kathak from "../assets/images/kathak.jpg";
+import phonics from "../assets/images/phonics.jpg";
+import languageMath from "../assets/images/languageMath.jpg";
 
-// import useIsMobile from "../hooks/useIsMobile";
-// const tabData: ActivityTab[] = [
-//   {
-//     id: 1,
-//     label: "Gymnastics",
-//     content: {
-//       image: gymnasticsImg,
-//       title: "Gymnastics",
-//       description:
-//         "Welcome to the Activity Hub at Little Lantern! Watching children immerse themselves in their passions, uncover new skills, and nurture their curiosity is truly rewarding. Our after-school programs help boost confidence, inspire a passion for learning, and allow children to explore their interests while ",
-//     },
-//   },
-//   {
-//     id: 2,
-//     label: "Karate",
-//     content: {
-//       image: karateImg,
-//       title: "Karate",
-//       description:
-//         "Welcome to the Activity Hub at Little Lantern! Watching children immerse themselves in their passions, uncover new skills, and nurture their curiosity is truly rewarding. Our after-school programs help boost confidence, inspire a passion for learning, and allow children to explore their interests while ",
-//     },
-//   },
-//   {
-//     id: 3,
-//     label: "Dance",
-//     content: {
-//       image: danceImg,
-//       title: "Dance",
-//       description:
-//         "Welcome to the Activity Hub at Little Lantern! Watching children immerse themselves in their passions, uncover new skills, and nurture their curiosity is truly rewarding. Our after-school programs help boost confidence, inspire a passion for learning, and allow children to explore their interests while ",
-//     },
-//   },
-//   {
-//     id: 4,
-//     label: "Yoga",
-//     content: {
-//       image: yogaImg,
-//       title: "Yoga",
-//       description:
-//         "Welcome to the Activity Hub at Little Lantern! Watching children immerse themselves in their passions, uncover new skills, and nurture their curiosity is truly rewarding. Our after-school programs help boost confidence, inspire a passion for learning, and allow children to explore their interests while ",
-//     },
-//   },
-//   {
-//     id: 5,
-//     label: "Messy Play",
-//     content: {
-//       image: messyPlayImg,
-//       title: "Messy Play",
-//       description:
-//         "Welcome to the Activity Hub at Little Lantern! Watching children immerse themselves in their passions, uncover new skills, and nurture their curiosity is truly rewarding. Our after-school programs help boost confidence, inspire a passion for learning, and allow children to explore their interests while ",
-//     },
-//   },
-//   {
-//     id: 6,
-//     label: "Pottery",
-//     content: {
-//       image: potteryImg,
-//       title: "Pottery",
-//       description:
-//         "Welcome to the Activity Hub at Little Lantern! Watching children immerse themselves in their passions, uncover new skills, and nurture their curiosity is truly rewarding. Our after-school programs help boost confidence, inspire a passion for learning, and allow children to explore their interests while ",
-//     },
-//   },
-// ];
+import useIsMobile from "../hooks/useIsMobile";
+import ActivityMobileComponent from "../components/ActivityHubPage/ActivityMobile.component";
+import { Link } from "react-router-dom";
+const tabData: ActivityTab[] = [
+  {
+    id: 1,
+    label: "Storytelling",
+    content: {
+      image: storyTelling,
+      title: "Storytelling",
+      description:
+        "A magical mix of stories, songs, puppets, and play—our storytelling class sparks imagination, builds language, and nurtures a love for books. Perfect for little ones aged 2 to 4, each session is interactive, engaging, and full of wonder.",
+    },
+  },
+  {
+    id: 2,
+    label: "Speech and Drama",
+    content: {
+      image: speechDrama,
+      title: "Speech and Drama",
+      description:
+        "Our Speech & Drama class helps children build confidence, clear speech, and expressive communication through stories, role play, movement, and fun theatre games. It’s a joyful space where voices grow stronger and imaginations come alive!",
+    },
+  },
+  {
+    id: 3,
+    label: "Ballet",
+    content: {
+      image: ballet,
+      title: "Ballet",
+      description:
+        "A graceful introduction to classical ballet, focusing on posture, coordination, and expression through elegant movement—building discipline and joy through dance.",
+    },
+  },
+  {
+    id: 4,
+    label: "Vocal Music",
+    content: {
+      image: vocalMusic,
+      title: "Vocal Music",
+      description:
+        "Children explore melody, rhythm, and vocal expression through fun warm-ups, songs, and exercises—building musical confidence and ear training.",
+    },
+  },
+  {
+    id: 5,
+    label: "Art & Craft",
+    content: {
+      image: artCraft,
+      title: "Art & Craft",
+      description:
+        "Hands-on creative sessions where children explore colors, textures, and materials to make their own art—developing fine motor skills and creative confidence.",
+    },
+  },
+  {
+    id: 6,
+    label: "Kathak",
+    content: {
+      image: kathak,
+      title: "Kathak",
+      description:
+        "An engaging start to classical Indian dance, Kathak teaches rhythm, storytelling through movement, and cultural expression in an age-appropriate format.",
+    },
+  },
+  {
+    id: 7,
+    label: "Phonics",
+    content: {
+      image: phonics,
+      title: "Phonics",
+      description:
+        "A fun, sound-based approach to early reading that helps children connect letters with sounds, build vocabulary, and lay the foundation for literacy.",
+    },
+  },
+  {
+    id: 8,
+    label: "Language & Math",
+    content: {
+      image: languageMath,
+      title: "Language & Math",
+      description:
+        "Engaging, concept-based activities that build strong foundational skills in reading, writing, number sense, and problem-solving—making learning fun and meaningful.",
+    },
+  },
+];
 
 const ActivityHubPage: React.FC = () => {
-  // const isMobile = useIsMobile();
+  const isMobile = useIsMobile();
   return (
     <div className={styles.container}>
       <h2 className={styles.mainTitle}>ACTIVITY HUB</h2>
@@ -87,16 +113,16 @@ const ActivityHubPage: React.FC = () => {
         that make learning fun and enriching for kids of all ages.
       </p>
 
-      <p className={styles.description}>
+      {/* <p className={styles.description}>
         Details coming soon! For any queries, contact us at{" "}
         <a href="mailto:info@littlelantern.in">info@littlelantern.in</a> or{" "}
         <a href="tel:89100006463">89100006463</a>.
-      </p>
-      {/* {!isMobile && <ActivityTabComponent tabs={tabData} />}
+      </p> */}
+      {!isMobile && <ActivityTabComponent tabs={tabData} />}
       {isMobile && <ActivityMobileComponent tabs={tabData} />}
       <div className={styles.btnBox}>
         <Link to="/contact-us">Enquire Now</Link>
-      </div> */}
+      </div>
     </div>
   );
 };
