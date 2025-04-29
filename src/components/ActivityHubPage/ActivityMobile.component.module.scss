@@ -4,35 +4,45 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
   gap: 10px;
-  .imageBox {
-    display: block;
-    margin: 0px;
-    img {
-      border-radius: 10px 10px 0px 0px;
-      display: block;
-    }
-  }
-  .description {
-    display: block;
-    padding: 15px;
+  .boxes {
+    flex: 1;
     background: #e8fbff;
-    border-radius: 0px 0px 10px 10px;
-    h3 {
+    border-radius: 10px;
+    .imageBox {
       display: block;
-      color: #06b3db;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 110%;
-      letter-spacing: -0.48px;
+      margin: 0px;
+      overflow: hidden;
+      height: 150px;
+      img {
+        border-radius: 10px 10px 0px 0px;
+        width: 100%; /* Stretch to container width */
+        height: 100%; /* Stretch to container height */
+        object-fit: cover; /* Crop to fill without distortion */
+        display: block;
+      }
     }
-    p {
-      color: #606060;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 18px;
-      padding: 10px 0px;
+    .description {
+      display: block;
+      padding: 15px 10px;
+      background: #e8fbff;
+      border-radius: 0px 0px 10px 10px;
+      h3 {
+        display: block;
+        color: #06b3db;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: -0.48px;
+      }
+      p {
+        color: #606060;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        padding: 10px 0px;
+      }
     }
   }
 }

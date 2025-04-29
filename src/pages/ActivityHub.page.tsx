@@ -121,7 +121,9 @@ const ActivityHubPage: React.FC = () => {
       {!isMobile && <ActivityTabComponent tabs={tabData} />}
       {isMobile && <ActivityMobileComponent tabs={tabData} />}
       <div className={styles.btnBox}>
-        <Link to="/contact-us">Enquire Now</Link>
+        <Link target="_blank" to="https://illumine.page.link/W7wK">
+          Register Now
+        </Link>
       </div>
     </div>
   );
