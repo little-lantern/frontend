@@ -8,7 +8,7 @@ export type ActivityTab = {
   id: number;
   label: string;
   content: {
-    image: string;
+    image?: string;
     title: string;
     description: string;
   };
@@ -56,9 +56,11 @@ const ActivityTabComponent: React.FC<IProps> = ({ tabs }) => {
             (tab) =>
               activeTab === tab.id && (
                 <div key={tab.id} className={styles.tabPanel}>
-                  <div className={styles.imgBox}>
-                    <img src={tab.content.image} alt={tab.content.title} />
-                  </div>
+                  {tab.content.image && (
+                    <div className={styles.imgBox}>
+                      <img src={tab.content.image} alt={tab.content.title} />
+                    </div>
+                  )}
                   <div className={styles.contentBox}>
                     <h3>{tab.content.title}</h3>
                     <div className={styles.description}>

@@ -5,7 +5,7 @@ export type ActivityData = {
   id: number;
   label: string;
   content: {
-    image: string;
+    image?: string;
     title: string;
     description: string;
   };
@@ -20,9 +20,11 @@ const ActivityMobileComponent: React.FC<IProps> = ({ tabs }) => {
     <div className={styles.container}>
       {tabs.map((tab) => (
         <div className={styles.boxes} key={tab.id}>
-          <div className={styles.imageBox}>
-            <img src={tab.content.image} alt={tab.content.title} />
-          </div>
+          {tab.content.image && (
+            <div className={styles.imageBox}>
+              <img src={tab.content.image} alt={tab.content.title} />
+            </div>
+          )}
           <div className={styles.description}>
             <h3>{tab.content.title}</h3>
             <p>{tab.content.description}</p>

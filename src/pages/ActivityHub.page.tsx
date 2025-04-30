@@ -11,6 +11,7 @@ import artCraft from "../assets/images/artCraft.jpg";
 import kathak from "../assets/images/kathak.jpg";
 import phonics from "../assets/images/phonics.jpg";
 import languageMath from "../assets/images/languageMath.jpg";
+import andManyMore from "../assets/images/andManyMore.jpg";
 
 import useIsMobile from "../hooks/useIsMobile";
 import ActivityMobileComponent from "../components/ActivityHubPage/ActivityMobile.component";
@@ -94,6 +95,16 @@ const tabData: ActivityTab[] = [
       title: "Language & Math",
       description:
         "Engaging, concept-based activities that build strong foundational skills in reading, writing, number sense, and problem-solving—making learning fun and meaningful.",
+    },
+  },
+  {
+    id: 9,
+    label: "And Many More",
+    content: {
+      image: andManyMore,
+      title: "And Many More",
+      description:
+        "Little Lantern’s Activity Hub offers a wide variety of exciting classes—ranging from weekend clubs to festival-themed workshops and seasonal specials. With new sessions added regularly, there's always something new for every curious child to explore! Contact us to know more!",
     },
   },
 ];
