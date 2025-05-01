@@ -4,6 +4,7 @@ import logo from "../assets/images/logo.svg";
 import { Link } from "react-router-dom";
 import faceBookIcon from "../assets/images/facebook-icon.png";
 import instagramIcon from "../assets/images/instagram-icon.png";
+import WhatsAppButton from "./WhatsAppChatBtn";
 // import twitterIcon from "../assets/images/twitter-icon.png";
 // import youtubeIcon from "../assets/images/youtube-icon.png";
 
@@ -152,6 +153,7 @@ const Footer: React.FC = () => {
           <p>© 2025 Little Lantern Preschool. All rights reserved.</p>
         </div>
       </div>
+      <WhatsAppButton />
     </footer>
   );
 };
