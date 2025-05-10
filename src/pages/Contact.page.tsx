@@ -46,7 +46,10 @@ const ContactPage: React.FC = () => {
                 <br /> Kolkata - 700026
               </p>
               <h3>Phone</h3>
-              <p>+91 89100 06463</p>
+              <p>
+                Preschool - 8910006463 <br />
+                Activity Hub - 8100306462
+              </p>
               <h3>Email</h3>
               <p>info@littlelantern.in</p>
             </div>

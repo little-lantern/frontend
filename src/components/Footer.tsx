@@ -103,7 +103,8 @@ const Footer: React.FC = () => {
             <p>
               <span>Little Lantern - Early Learning Center</span>
               <span>170, Harish Mukherjee Road, Kolkata - 700026</span>
-              <span>+91 89100 06463</span>
+              <span>Preschool - 8910006463 </span>
+              <span>Activity Hub - 8100306462</span>
               <span>info@littlelantern.in</span>
             </p>
           </div>
@@ -116,7 +117,8 @@ const Footer: React.FC = () => {
           <p>
             <span>Little Lantern - Early Learning Center</span>
             <span>170, Harish Mukherjee Road, Kolkata - 700026</span>
-            <span>+91 89100 06463</span>
+            <span>Preschool - 8910006463 </span>
+            <span>Activity Hub - 8100306462</span>
             <span>info@littlelantern.in</span>
           </p>
         </div>
