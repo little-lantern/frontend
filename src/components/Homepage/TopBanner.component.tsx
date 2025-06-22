@@ -2,8 +2,10 @@ import React from "react";
 import styles from "./TopBanner.component.module.scss";
 import { Link } from "react-router-dom";
 import bannerImage from "../../assets/images/home-page-girl.png";
+import useIsMobile from "../../hooks/useIsMobile";
 
 const TopBannerComponent: React.FC = () => {
+  const isMobile = useIsMobile();
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
@@ -22,9 +24,16 @@ const TopBannerComponent: React.FC = () => {
               <Link to="/programs" className={styles.orangeCta}>
                 Explore Programs
               </Link>
-              <Link to="/contact-us" className={styles.whiteCta}>
-                Get In Touch
-              </Link>
+              {!isMobile && (
+                <Link to="/contact-us" className={styles.whiteCta}>
+                  Get In Touch
+                </Link>
+              )}
+              {isMobile && (
+                <Link to="/apply-now" className={`${styles.whiteCta}`}>
+                  Apply Now
+                </Link>
+              )}
             </div>
           </div>
           <div className={styles.rightBox}>
