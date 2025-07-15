@@ -10,7 +10,7 @@ const InstagramFeedComponent: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <h2 className={styles.mainTitle}>Follow us on Instagram</h2>
-        <div className={styles.feedBox}>
+        {/* <div className={styles.feedBox}>
           <ul>
             <li>
               <Link
@@ -46,7 +46,7 @@ const InstagramFeedComponent: React.FC = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className={styles.btnBox}>
           <Link
             target="_blank"
