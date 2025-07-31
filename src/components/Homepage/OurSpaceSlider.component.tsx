@@ -4,19 +4,25 @@ import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { Swiper as SwiperClass } from "swiper"; // Import Swiper type
-import sliderImagOne from "../../assets/images/slider-4-1.jpg";
-import sliderImagTwo from "../../assets/images/slider-4-2.jpg";
-import sliderImagThree from "../../assets/images/slider-4-3.jpg";
-import sliderImagFour from "../../assets/images/slider-4-4.jpg";
-import sliderImagFive from "../../assets/images/slider-4-5.jpg";
-import sliderImagSix from "../../assets/images/slider-4-6.jpg";
-import sliderImagSeven from "../../assets/images/slider-4-7.jpg";
-import sliderImagEight from "../../assets/images/slider-4-8.jpg";
-import sliderImagNine from "../../assets/images/slider-4-9.jpg";
-import sliderImagTen from "../../assets/images/slider-4-10.jpg";
-import sliderImagEleven from "../../assets/images/slider-4-11.jpg";
-import sliderImagTwelve from "../../assets/images/slider-4-12.jpg";
-import sliderImagThirteen from "../../assets/images/slider-4-13.jpg";
+// import sliderImagOne from "../../assets/images/slider-4-1.jpg";
+// import sliderImagTwo from "../../assets/images/slider-4-2.jpg";
+// import sliderImagThree from "../../assets/images/slider-4-3.jpg";
+// import sliderImagFour from "../../assets/images/slider-4-4.jpg";
+// import sliderImagFive from "../../assets/images/slider-4-5.jpg";
+// import sliderImagSix from "../../assets/images/slider-4-6.jpg";
+// import sliderImagSeven from "../../assets/images/slider-4-7.jpg";
+// import sliderImagEight from "../../assets/images/slider-4-8.jpg";
+// import sliderImagNine from "../../assets/images/slider-4-9.jpg";
+// import sliderImagTen from "../../assets/images/slider-4-10.jpg";
+// import sliderImagEleven from "../../assets/images/slider-4-11.jpg";
+// import sliderImagTwelve from "../../assets/images/slider-4-12.jpg";
+// import sliderImagThirteen from "../../assets/images/slider-4-13.jpg";
+
+import sliderImagOne from "../../assets/images/our_space_01.jpg";
+import sliderImagTwo from "../../assets/images/our_space_02.jpg";
+import sliderImagThree from "../../assets/images/our_space_03.jpg";
+import sliderImagFour from "../../assets/images/our_space_04.jpg";
+import sliderImagFive from "../../assets/images/our_space_05.jpg";
 
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -27,14 +33,14 @@ const data = [
   { id: 3, imgUrl: sliderImagThree },
   { id: 4, imgUrl: sliderImagFour },
   { id: 5, imgUrl: sliderImagFive },
-  { id: 6, imgUrl: sliderImagSix },
-  { id: 7, imgUrl: sliderImagSeven },
-  { id: 8, imgUrl: sliderImagEight },
-  { id: 9, imgUrl: sliderImagNine },
-  { id: 10, imgUrl: sliderImagTen },
-  { id: 11, imgUrl: sliderImagEleven },
-  { id: 12, imgUrl: sliderImagTwelve },
-  { id: 13, imgUrl: sliderImagThirteen },
+  // { id: 6, imgUrl: sliderImagSix },
+  // { id: 7, imgUrl: sliderImagSeven },
+  // { id: 8, imgUrl: sliderImagEight },
+  // { id: 9, imgUrl: sliderImagNine },
+  // { id: 10, imgUrl: sliderImagTen },
+  // { id: 11, imgUrl: sliderImagEleven },
+  // { id: 12, imgUrl: sliderImagTwelve },
+  // { id: 13, imgUrl: sliderImagThirteen },
 ];
 
 const OurSpaceSliderComponent: React.FC = () => {
