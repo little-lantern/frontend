@@ -15,9 +15,9 @@ const AdmissionComponent: React.FC = () => {
             <h2 className={styles.mainTitle}>
               Little Lantern is your kids next stop!
             </h2>
-            <p className={styles.description}>
+            {/* <p className={styles.description}>
               ADMISSION OPEN FOR 2025 SUMMER BATCH
-            </p>
+            </p> */}
             <div className={styles.btnBox}>
               <Link className={styles.ctaWhite} to="/apply-now">
                 Apply Now

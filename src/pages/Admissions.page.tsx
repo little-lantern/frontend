@@ -7,9 +7,9 @@ import EligibilityCritereaComponent from "../components/Admissions/EligibilityCr
 const AdmissionsPage: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.mainTitle}>
+      {/* <h2 className={styles.mainTitle}>
         Admissions FOR 2025-2026 <br /> ARE NOW OPEN!
-      </h2>
+      </h2> */}
       <AdmissionTopSliderComponent />
       <AdmissionProcessComponent />
       <EligibilityCritereaComponent />
