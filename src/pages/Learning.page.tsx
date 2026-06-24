@@ -3,7 +3,6 @@ import styles from "./Learning.page.module.scss";
 import PedagogyComponent from "../components/LearningPage/Pedagogy.component";
 import OurCurriculumComponent from "../components/LearningPage/OurCariculam.component";
 import OurLearningAreaComponent from "../components/LearningPage/OurLearningArea.component";
-import OurLearingImageComponent from "../components/LearningPage/OurLearingImage.component";
 import TypicalDayComponent from "../components/LearningPage/TypicalDay.component";
 import useIsMobile from "../hooks/useIsMobile";
 import TypicalDayMobileComponent from "../components/LearningPage/TypicalDayMobile.component";
@@ -34,7 +33,6 @@ const LearningPage: React.FC = () => {
       <PedagogyComponent />
       <OurCurriculumComponent />
       <OurLearningAreaComponent />
-      <OurLearingImageComponent />
       {isMobile ? <TypicalDayMobileComponent /> : <TypicalDayComponent />}
     </div>
   );
