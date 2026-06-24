@@ -15,73 +15,73 @@ const OurProgramsComponents: React.FC = () => {
         <h2 className={styles.mainTitle}>Our programs</h2>
         <div className={styles.programBox}>
           <Link
-            to="/overview#program-1"
+            to="/programs?program=1"
             className={styles.box}
             style={{ background: "#7771D7" }}
           >
             <h3>Parent Toddler</h3>
             <p>12+ months</p>
             <span className={styles.arrow}>
-              <img src={arrowLink} alt="" />
+              <img src={arrowLink} alt="" aria-hidden="true" />
             </span>
             <div className={styles.bgImg}>
-              <img src={parentToddlerBg} alt="" />
+              <img src={parentToddlerBg} alt="Parent Toddler program" />
             </div>
           </Link>
           <Link
-            to="/overview#program-2"
+            to="/programs?program=2"
             className={styles.box}
             style={{ background: "#F289B7" }}
           >
             <h3>Toddler</h3>
             <p>18+ months</p>
             <span className={styles.arrow}>
-              <img src={arrowLink} alt="" />
+              <img src={arrowLink} alt="" aria-hidden="true" />
             </span>
             <div className={styles.bgImg}>
-              <img src={toddlerBg} alt="" />
+              <img src={toddlerBg} alt="Toddler program" />
             </div>
           </Link>
           <Link
-            to="/overview#program-3"
+            to="/programs?program=3"
             className={styles.box}
             style={{ background: "#06B3DB" }}
           >
             <h3>Playgroup</h3>
             <p>2-3 years</p>
             <span className={styles.arrow}>
-              <img src={arrowLink} alt="" />
+              <img src={arrowLink} alt="" aria-hidden="true" />
             </span>
             <div className={styles.bgImg}>
-              <img src={playgroupBg} alt="" />
+              <img src={playgroupBg} alt="Playgroup program" />
             </div>
           </Link>
           <Link
-            to="/overview#program-4"
+            to="/programs?program=4"
             className={styles.box}
             style={{ background: "#F289B7" }}
           >
             <h3>Nursery</h3>
             <p>3-4 years</p>
             <span className={styles.arrow}>
-              <img src={arrowLink} alt="" />
+              <img src={arrowLink} alt="" aria-hidden="true" />
             </span>
             <div className={styles.bgImg}>
-              <img src={nurseryBg} alt="" />
+              <img src={nurseryBg} alt="Nursery program" />
             </div>
           </Link>
           <Link
-            to="/overview#program-5"
+            to="/programs?program=5"
             className={styles.box}
             style={{ background: "#7771D7" }}
           >
             <h3>KG 1</h3>
             <p>4-5 years</p>
             <span className={styles.arrow}>
-              <img src={arrowLink} alt="" />
+              <img src={arrowLink} alt="" aria-hidden="true" />
             </span>
             <div className={styles.bgImg}>
-              <img src={kg1Bg} alt="" />
+              <img src={kg1Bg} alt="KG1 program" />
             </div>
           </Link>
         </div>

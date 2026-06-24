@@ -1,0 +1,38 @@
+.container {
+  display: block;
+  padding: 20px 0 40px;
+  .chipRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    border-radius: 78px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px 0 30px;
+    .chipRow {
+      gap: 10px;
+    }
+    .chip {
+      font-size: 14px;
+      padding: 10px 18px;
+    }
+  }
+}

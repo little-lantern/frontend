@@ -16,25 +16,66 @@
     line-height: 110%;
     letter-spacing: -2.4px;
     text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .subtitle {
+    color: #606060;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 600px;
+    margin: 0 auto 20px;
   }
   .formBox {
     display: block;
     min-height: 500px;
     border-radius: 20px;
     background: #fff;
-    margin: 20px 0px;
+    position: relative;
+    overflow: hidden;
     iframe {
       display: block;
       width: 100%;
       border: none;
     }
   }
+  .formSkeleton {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background: #fff;
+    color: #606060;
+    font-size: 16px;
+    z-index: 1;
+  }
+  .spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #e8fbff;
+    border-top-color: #f57a3e;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 768px) {
   .container {
+    padding: 24px 16px;
     .mainTitle {
-      font-size: 32px;
+      font-size: 28px;
+    }
+    .subtitle {
+      font-size: 14px;
     }
   }
 }

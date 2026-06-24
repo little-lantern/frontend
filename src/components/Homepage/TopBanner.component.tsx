@@ -11,9 +11,9 @@ const TopBannerComponent: React.FC = () => {
       <div className={styles.wrapper}>
         <div className={styles.bannerBox}>
           <div className={styles.leftBox}>
-            <h2 className={styles.mainTitle}>
+            <h1 className={styles.mainTitle}>
               Let your child <br /> explore, play & <br /> learn!
-            </h2>
+            </h1>
             <p className={styles.subTitle}>
               We are an early learning center located in Kolkata, inspired by
               Finland's world-renowned early childhood education approach
@@ -38,7 +38,7 @@ const TopBannerComponent: React.FC = () => {
           </div>
           <div className={styles.rightBox}>
             <div className={styles.imgBox}>
-              <img src={bannerImage} alt="" />
+              <img src={bannerImage} alt="Child exploring and learning at Little Lantern" />
             </div>
           </div>
         </div>

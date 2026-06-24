@@ -7,7 +7,7 @@ const PedagogyComponent: React.FC = () => {
   return (
     <div className={styles.container} id="pedagogy">
       <div className={styles.wrapper}>
-        <h2 className={styles.mainTitle}>PEDAGOGY</h2>
+        <h1 className={styles.mainTitle}>PEDAGOGY</h1>
         <p className={styles.description}>
           Little Lantern follows Finland’s Educare approach, blending play-based
           learning with holistic care. Our pedagogy nurtures curiosity,

@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Tabs.component.module.scss";
-import { Link } from "react-router-dom";
 
 export type Tab = {
   id: number;
@@ -13,7 +12,6 @@ export type Tab = {
     ageGroup: string;
     schedule: string;
     description: string;
-    url: string;
     background: string;
     color: string;
     graphic: string;
@@ -22,10 +20,22 @@ export type Tab = {
 
 interface IProps {
   tabs: Tab[];
+  initialTabId?: number;
 }
 
-const CustomTabs: React.FC<IProps> = ({ tabs }) => {
-  const [activeTab, setActiveTab] = useState<number>(tabs[0].id);
+const CustomTabs: React.FC<IProps> = ({ tabs, initialTabId }) => {
+  const [activeTab, setActiveTab] = useState<number>(
+    initialTabId && tabs.some((t) => t.id === initialTabId)
+      ? initialTabId
+      : tabs[0].id
+  );
+
+  useEffect(() => {
+    if (initialTabId && tabs.some((t) => t.id === initialTabId)) {
+      setActiveTab(initialTabId);
+    }
+  }, [initialTabId, tabs]);
+
   const handleTabClick = (id: number) => {
     setActiveTab(id);
   };
@@ -33,7 +43,6 @@ const CustomTabs: React.FC<IProps> = ({ tabs }) => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        {/* Tab Headers */}
         <div className={styles.tabs}>
           {tabs.map((tab) => (
             <button
@@ -49,7 +58,6 @@ const CustomTabs: React.FC<IProps> = ({ tabs }) => {
           ))}
         </div>
 
-        {/* Tab Content */}
         <div className={styles.content}>
           {tabs.map(
             (tab) =>
@@ -81,22 +89,15 @@ const CustomTabs: React.FC<IProps> = ({ tabs }) => {
                     <div className={styles.description}>
                       {tab.content.description}
                     </div>
-                    <Link
-                      className={styles.btn}
-                      to={tab.content.url}
-                      style={{
-                        border: `solid 2px ${tab.content.color || ""}`,
-                        color: tab.content.color,
-                      }}
-                    >
-                      Read More
-                    </Link>
                     <div
                       className={`${styles.graphicImag} ${
                         styles[tab.label.replace(/\s+/g, "_").toLowerCase()]
                       }`}
                     >
-                      <img src={tab.content.graphic} alt="" />
+                      <img
+                        src={tab.content.graphic}
+                        alt={`${tab.content.title} program illustration`}
+                      />
                     </div>
                   </div>
                 </div>

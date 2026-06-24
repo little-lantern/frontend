@@ -10,7 +10,8 @@ import ExplorePlayLearnComponent from "./components/Homepage/ExplorePlayLearn.co
 import ContactPage from "./pages/Contact.page";
 import ProgramsPage from "./pages/Programs.page";
 import WorkWithUsPage from "./pages/WorkWithUs.page";
-import ProgramOverviewPage from "./pages/ProgramOverview.page";
+import OverviewRedirect from "./components/OverviewRedirect.component";
+import PageSeoWrapper from "./components/PageSeoWrapper.component";
 import AdmissionsPage from "./pages/Admissions.page";
 import ActivityHubPage from "./pages/ActivityHub.page";
 import OurSpacePage from "./pages/OurSpace.page";
@@ -25,6 +26,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <ScrollToTop />
+      <PageSeoWrapper />
       <Header />
       <main>
         <Routes>
@@ -33,7 +35,7 @@ const App: React.FC = () => {
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/programs" element={<ProgramsPage />} />
           <Route path="/work-with-us" element={<WorkWithUsPage />} />
-          <Route path="/overview" element={<ProgramOverviewPage />} />
+          <Route path="/overview" element={<OverviewRedirect />} />
           <Route path="/admissions" element={<AdmissionsPage />} />
           <Route path="/activity" element={<ActivityHubPage />} />
           <Route path="/our-space" element={<OurSpacePage />} />

@@ -20,15 +20,33 @@
     font-weight: 400;
     line-height: 24px;
     max-width: 1190px;
-    margin: 0px auto 20px auto;
-    padding: 10px;
+    margin: 0px auto 16px auto;
+    padding: 0 10px;
+  }
+  .contactLine {
+    color: #222c5d;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px auto;
+    .phoneLink {
+      color: #f57a3e;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+      &:focus-visible {
+        outline: 2px solid #f57a3e;
+        outline-offset: 2px;
+      }
+    }
   }
   .btnBox {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 80px;
-    a {
+    .ctaBtn {
       color: #fff;
       text-align: center;
       font-family: "Chillax";
@@ -44,6 +62,10 @@
       &:hover {
         background: #fff;
         color: #f57a3e;
+      }
+      &:focus-visible {
+        outline: 2px solid #222c5d;
+        outline-offset: 2px;
       }
     }
   }

@@ -17,7 +17,7 @@
     text-transform: uppercase;
   }
   .innerWrapper {
-    margin: 60px 0px;
+    margin: 40px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +33,25 @@
         display: block;
         width: 100%;
         border: none;
+      }
+      .mapSkeleton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        background: #f0f0f0;
+        color: #606060;
+        font-size: 16px;
+        width: 100%;
+      }
+      .spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid #e0e0e0;
+        border-top-color: #f57a3e;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
       }
       .getDirectionsBtn {
         position: absolute;
@@ -51,6 +70,15 @@
         border: 1px solid #f57a3e;
         background: #f57a3e;
         cursor: pointer;
+        text-decoration: none;
+        &:hover {
+          background: #fff;
+          color: #f57a3e;
+        }
+        &:focus-visible {
+          outline: 2px solid #222c5d;
+          outline-offset: 2px;
+        }
       }
     }
     .addressBox {
@@ -64,7 +92,7 @@
       .address {
         display: block;
         padding-top: 20px;
-        h3 {
+        h2 {
           border-top: solid 1px #aaa;
           color: #222c5d;
           font-size: 24px;
@@ -82,8 +110,25 @@
           font-weight: 400;
           line-height: 24px;
         }
+        .contactLink {
+          color: #f57a3e;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+          &:focus-visible {
+            outline: 2px solid #f57a3e;
+            outline-offset: 2px;
+          }
+        }
       }
     }
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
 
@@ -116,7 +161,7 @@
         .address {
           display: block;
           padding-top: 20px;
-          h3 {
+          h2 {
             font-size: 18px;
           }
           p {

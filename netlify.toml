@@ -1,0 +1,16 @@
+[[redirects]]
+  from = "/overview"
+  to = "/programs"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/overview/*"
+  to = "/programs"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

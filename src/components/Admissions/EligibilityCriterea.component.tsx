@@ -9,7 +9,7 @@ const EligibilityCritereaComponent: React.FC = () => {
           Children must be taught how to think, not what to think - Margaret
           Mead
         </h2>
-        <h3 className={styles.subTitle}>Eligibility Criterea</h3>
+        <h3 className={styles.subTitle}>Eligibility Criteria</h3>
         <p className={styles.description}>
           The following criteria must be met for admission:
         </p>
