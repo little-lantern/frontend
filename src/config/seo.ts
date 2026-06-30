@@ -10,10 +10,22 @@ export type PageSeo = {
 
 export const PAGE_SEO: Record<string, PageSeo> = {
   "/": {
-    title: "Little Lantern | Early Learning Preschool in Kolkata",
+    title: "Little Lantern | Finnish-Inspired Preschool in Kolkata",
     description:
-      "Finnish Educare-inspired early learning centre in Kolkata for ages 12 months to 5 years. Play-based programs, expert educators, and a nurturing campus.",
+      "Little Lantern is a Finnish Educare-inspired early learning centre in Kolkata for ages 12 months to 5 years. Play-based learning across 20+ zones. Book a visit.",
     path: "/",
+  },
+  "/about": {
+    title: "About Us | Mission & Philosophy — Little Lantern Kolkata",
+    description:
+      "Discover Little Lantern's child-centred philosophy, the Lantern Difference, and our founder's Finnish-certified vision for early learning in Kolkata.",
+    path: "/about",
+  },
+  "/our-space": {
+    title: "Our Space | 20+ Learning Zones & Safe Campus — Little Lantern",
+    description:
+      "Explore Little Lantern's 12,000+ sq ft Kolkata campus: 20+ interactive learning zones, climate-controlled classrooms, CCTV, fire safety and child-safe design.",
+    path: "/our-space",
   },
   "/programs": {
     title: "Programs | Preschool for Ages 12 Months–5 Years — Little Lantern",
@@ -51,18 +63,6 @@ export const PAGE_SEO: Record<string, PageSeo> = {
       "Contact Little Lantern, 170 Harish Mukherjee Road, Kolkata 700026. Call our preschool or Activity Hub, email us, or message us on WhatsApp.",
     path: "/contact-us",
   },
-  "/about": {
-    title: "About Us | Our Mission & Team — Little Lantern Kolkata",
-    description:
-      "Learn about Little Lantern's mission, philosophy, and the team behind Kolkata's Finnish Educare-inspired early learning centre.",
-    path: "/about",
-  },
-  "/our-space": {
-    title: "Our Space | 12,000+ sq ft Learning Campus — Little Lantern",
-    description:
-      "Explore Little Lantern's 12,000+ sq ft Kolkata campus with 20+ interactive learning zones, climate-controlled classrooms, and child-safe design.",
-    path: "/our-space",
-  },
   "/work-with-us": {
     title: "Work With Us | Careers at Little Lantern Kolkata",
     description:
@@ -93,7 +93,7 @@ export const getPageSeo = (pathname: string): PageSeo => {
   const normalized = pathname.split("?")[0].split("#")[0];
   return (
     PAGE_SEO[normalized] ?? {
-      title: `${SITE_NAME} | Early Learning Center in Kolkata`,
+      title: `${SITE_NAME} | Finnish-Inspired Preschool in Kolkata`,
       description: PAGE_SEO["/"].description,
       path: normalized,
     }

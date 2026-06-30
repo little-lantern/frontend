@@ -9,11 +9,8 @@ const OurSpacePage: React.FC = () => {
     <div className={styles.container}>
       <h1 className={styles.mainTitle}>our Space</h1>
       <p className={styles.description}>
-        Our 12,000+ sq ft Kolkata campus features 20+ interactive learning
-        zones, climate-controlled classrooms, CCTV, fire safety and child-safe
-        design. At Little Lantern, we have created more than just a preschool—we've
-        built a home away from home where children feel safe, inspired, and
-        excited to learn.
+        Our 12,000+ sq ft Kolkata campus: 20+ interactive learning zones,
+        climate-controlled classrooms, CCTV, fire safety and child-safe design.
       </p>
       {/* <TopVideoComponent /> */}
       <ImageSliderComponent />

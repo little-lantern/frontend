@@ -20,9 +20,9 @@ const ROUTES = [
 ];
 
 const ROUTE_TITLES = {
-  "/": "Little Lantern | Early Learning Preschool in Kolkata",
-  "/about": "About Us | Our Mission & Team — Little Lantern Kolkata",
-  "/our-space": "Our Space | 12,000+ sq ft Learning Campus — Little Lantern",
+  "/": "Little Lantern | Finnish-Inspired Preschool in Kolkata",
+  "/about": "About Us | Mission & Philosophy — Little Lantern Kolkata",
+  "/our-space": "Our Space | 20+ Learning Zones & Safe Campus — Little Lantern",
   "/programs": "Programs | Preschool for Ages 12 Months–5 Years — Little Lantern",
   "/learning": "Our Pedagogy | Finnish Educare Curriculum — Little Lantern",
   "/admissions": "Admissions | Apply in 3 Simple Steps — Little Lantern Kolkata",
@@ -43,7 +43,7 @@ const dedupeSeoTags = (html, route) => {
   const expectedTitle = ROUTE_TITLES[route];
   const homeTitle = ROUTE_TITLES["/"];
   const homeDescription =
-    "Finnish Educare-inspired early learning centre in Kolkata for ages 12 months to 5 years. Play-based programs, expert educators, and a nurturing campus.";
+    "Little Lantern is a Finnish Educare-inspired early learning centre in Kolkata for ages 12 months to 5 years. Play-based learning across 20+ zones. Book a visit.";
 
   if (route !== "/") {
     html = html.replaceAll(`<title>${homeTitle}</title>`, "");

@@ -17,7 +17,7 @@ const dataJson = [
     icon: AbIconOne,
     title: "Child-Centered Learning & Holistic Development",
     content:
-      "Every child is unique, and our approach supports their individuality through play-based, inquiry-driven learning. Our curriculum nurtures critical thinking, creativity, confidence, and resilience — all characterestics that ensure well-rounded growth in cognitive, emotional, physical, and social domains.",
+      "Every child is unique, and our approach supports their individuality through play-based, inquiry-driven learning. Our curriculum nurtures critical thinking, creativity, confidence, and resilience — all characteristics that ensure well-rounded growth in cognitive, emotional, physical, and social domains.",
   },
   {
     id: 2,

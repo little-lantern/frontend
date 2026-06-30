@@ -12,7 +12,7 @@ const TopBannerComponent: React.FC = () => {
         <div className={styles.bannerBox}>
           <div className={styles.leftBox}>
             <h1 className={styles.mainTitle}>
-              Let your child <br /> explore, play & <br /> learn!
+              Every child is the hero of their own learning journey.
             </h1>
             <p className={styles.subTitle}>
               We are an early learning center located in Kolkata, inspired by

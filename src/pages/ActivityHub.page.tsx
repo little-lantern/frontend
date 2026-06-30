@@ -34,18 +34,10 @@ const ActivityHubPage: React.FC = () => {
 
       <div className={styles.btnBox}>
         <a
-          href="https://forms.gle/AapkV2Y3tMpUkeEN7"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.ctaBtn}
-        >
-          Register Now
-        </a>
-        <a
           href="https://wa.me/918100306462"
           target="_blank"
           rel="noopener noreferrer"
-          className={`${styles.ctaBtn} ${styles.ctaBtnSecondary}`}
+          className={styles.ctaBtn}
         >
           Message on WhatsApp
         </a>
