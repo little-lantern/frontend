@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "./Contact.page.module.scss";
 import Logo from "../assets/images/logo-blue.svg";
 import useIsMobile from "../hooks/useIsMobile";
+import useLazyLoad from "../hooks/useLazyLoad";
 
 const MAP_EMBED_URL =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.4003047215533!2d88.343569!3d22.5266726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277fae8496d99%3A0x3728d5bc12c5ce4c!2sLittle%20Lantern%20-%20Early%20Learning%20Center!5e0!3m2!1sen!2sin!4v1750643978484!5m2!1sen!2sin";
@@ -13,19 +14,14 @@ const DIRECTIONS_URL =
 const ContactPage: React.FC = () => {
   const isMobile = useIsMobile();
   const [mapLoaded, setMapLoaded] = useState(false);
-  const [showMap, setShowMap] = useState(false);
-
-  React.useEffect(() => {
-    const timer = window.setTimeout(() => setShowMap(true), 100);
-    return () => window.clearTimeout(timer);
-  }, []);
+  const { ref: mapRef, isVisible: showMap } = useLazyLoad("300px");
 
   return (
     <div className={styles.container}>
       <h1 className={styles.mainTitle}>Contact us</h1>
       <div className={styles.wrapper}>
         <div className={styles.innerWrapper}>
-          <div className={styles.map}>
+          <div className={styles.map} ref={mapRef}>
             {!mapLoaded && (
               <div
                 className={styles.mapSkeleton}

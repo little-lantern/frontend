@@ -69,6 +69,24 @@ export const PAGE_SEO: Record<string, PageSeo> = {
       "Join the Little Lantern team. Explore career opportunities at our early learning centre in Kolkata.",
     path: "/work-with-us",
   },
+  "/privacy-policy": {
+    title: "Privacy Policy — Little Lantern Kolkata",
+    description:
+      "Read Little Lantern's privacy policy for our early learning centre in Kolkata.",
+    path: "/privacy-policy",
+  },
+  "/terms-of-use": {
+    title: "Terms of Use — Little Lantern Kolkata",
+    description:
+      "Read Little Lantern's terms of use for our early learning centre website.",
+    path: "/terms-of-use",
+  },
+  "/thank-you": {
+    title: "Thank You | Little Lantern Kolkata",
+    description:
+      "Thank you for contacting Little Lantern. Our team will be in touch soon.",
+    path: "/thank-you",
+  },
 };
 
 export const getPageSeo = (pathname: string): PageSeo => {

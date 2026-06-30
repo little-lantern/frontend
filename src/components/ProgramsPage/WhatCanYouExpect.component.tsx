@@ -28,7 +28,7 @@ const WhatCanYouExpectComponent: React.FC = () => {
             </div>
           </div>
           <div className={styles.centerImg}>
-            <img src={OurExpertImag} alt="" />
+            <img src={OurExpertImag} alt="Little Lantern early childhood expert with children" />
             <div className={`${styles.box} ${styles.three} `}>
               <strong>3</strong>
               <p>

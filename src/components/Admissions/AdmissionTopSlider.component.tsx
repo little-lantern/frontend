@@ -25,8 +25,8 @@ const AdmissionTopSliderComponent: React.FC = () => {
         onMouseEnter={() => swiperRef.current?.autoplay.stop()}
         onMouseLeave={() => swiperRef.current?.autoplay.start()}
       >
-        <button className={`${styles.navButton} ${styles.left}`} id="prevSlide">
-          <img src={prevArrow} alt="" />
+        <button className={`${styles.navButton} ${styles.left}`} id="prevSlide" aria-label="Previous slide">
+          <img src={prevArrow} alt="" aria-hidden="true" />
         </button>
         <Swiper
           slidesPerView={1.5}
@@ -55,23 +55,24 @@ const AdmissionTopSliderComponent: React.FC = () => {
           }}
         >
           <SwiperSlide>
-            <img src={admissionSlideOne} alt="" />
+            <img src={admissionSlideOne} alt="Children playing at Little Lantern admissions open day" loading="lazy" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={admissionSlideTwo} alt="" />
+            <img src={admissionSlideTwo} alt="Little Lantern campus and learning environment" loading="lazy" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={admissionSlideThree} alt="" />
+            <img src={admissionSlideThree} alt="Early learning activities at Little Lantern" loading="lazy" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={admissionSlideFour} alt="" />
+            <img src={admissionSlideFour} alt="Happy children at Little Lantern preschool" loading="lazy" />
           </SwiperSlide>
         </Swiper>
         <button
           className={`${styles.navButton} ${styles.right}`}
           id="nextSlide"
+          aria-label="Next slide"
         >
-          <img src={nextArrow} alt="" />
+          <img src={nextArrow} alt="" aria-hidden="true" />
         </button>
       </div>
 

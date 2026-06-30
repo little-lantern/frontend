@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Learning.page.module.scss";
 import PedagogyComponent from "../components/LearningPage/Pedagogy.component";
-import OurCurriculumComponent from "../components/LearningPage/OurCariculam.component";
+import OurCurriculumComponent from "../components/LearningPage/OurCurriculum.component";
 import OurLearningAreaComponent from "../components/LearningPage/OurLearningArea.component";
 import TypicalDayComponent from "../components/LearningPage/TypicalDay.component";
 import useIsMobile from "../hooks/useIsMobile";

@@ -42,7 +42,7 @@ const OurLearningAreaComponent: React.FC = () => {
         <h2 className={styles.title}>Our Learning areas</h2>
         <div className={styles.bannerBox}>
           <div className={styles.bannerImg}>
-            <img src={ClosePeople} alt="" />
+            <img src={ClosePeople} alt="Children learning together at Little Lantern" />
           </div>
           <div className={styles.bannerContent}>
             {dataJson &&

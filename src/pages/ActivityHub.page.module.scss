@@ -30,7 +30,7 @@
     font-weight: 700;
     margin: 24px auto;
     .phoneLink {
-      color: #f57a3e;
+      color: #222c5d;
       text-decoration: none;
       &:hover {
         text-decoration: underline;
@@ -43,8 +43,10 @@
   }
   .btnBox {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 16px;
     padding-bottom: 80px;
     .ctaBtn {
       color: #fff;
@@ -66,6 +68,14 @@
       &:focus-visible {
         outline: 2px solid #222c5d;
         outline-offset: 2px;
+      }
+    }
+    .ctaBtnSecondary {
+      background: #fff;
+      color: #f57a3e;
+      &:hover {
+        background: #f57a3e;
+        color: #fff;
       }
     }
   }

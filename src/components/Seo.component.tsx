@@ -52,7 +52,7 @@ const Seo: React.FC<SeoProps> = ({ pathname }) => {
   const canonicalUrl = `${SITE_URL}${path === "/" ? "" : path}`;
 
   return (
-    <Helmet>
+    <Helmet key={path}>
       <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonicalUrl} />

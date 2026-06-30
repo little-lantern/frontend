@@ -68,7 +68,7 @@ const CustomTabs: React.FC<IProps> = ({ tabs, initialTabId }) => {
                   style={{ background: tab.content.background }}
                 >
                   <div className={styles.imgBox}>
-                    <img src={tab.content.image} alt={tab.content.title} />
+                    <img src={tab.content.image} alt={tab.content.title} loading="lazy" />
                   </div>
                   <div
                     className={styles.contentBox}

@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./EligibilityCriterea.component.module.scss";
+import styles from "./EligibilityCriteria.component.module.scss";
 
-const EligibilityCritereaComponent: React.FC = () => {
+const EligibilityCriteriaComponent: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
@@ -50,4 +50,4 @@ const EligibilityCritereaComponent: React.FC = () => {
   );
 };
 
-export default EligibilityCritereaComponent;
+export default EligibilityCriteriaComponent;
