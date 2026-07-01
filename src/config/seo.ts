@@ -24,7 +24,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   "/our-space": {
     title: "Our Space | 20+ Learning Zones & Safe Campus — Little Lantern",
     description:
-      "Explore Little Lantern's 12,000+ sq ft Kolkata campus: 20+ interactive learning zones, climate-controlled classrooms, CCTV, fire safety and child-safe design.",
+      "Explore Little Lantern's 15,000+ sq ft Kolkata campus: 20+ interactive learning zones, climate-controlled classrooms, CCTV, fire safety and child-safe design.",
     path: "/our-space",
   },
   "/programs": {

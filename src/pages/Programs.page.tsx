@@ -92,7 +92,7 @@ const tabData: Tab[] = [
       image: tabFiveImag,
       title: "KG1",
       ageGroup: "Age Group: 4-5 years",
-      schedule: "Duration: 3.5 hours, Mon  -Fri,  8 - 11:30 am",
+      schedule: "Duration: 3.5 hours, Mon  -Fri,  8 - 11:45 am",
       description:
         "Our Kindergarten Program for ages 4 to 5 prepares children for formal schooling through structured academics, STEM exploration, and social-emotional learning. Literacy and numeracy activities build strong foundational skills, while collaborative projects and problem-solving tasks develop logical thinking and teamwork. Digital literacy, environmental awareness, and ethical decision-making shape future-ready learners. Children gain the confidence to adapt, explore, and express themselves in a stimulating environment.",
       color: "#7771D7",

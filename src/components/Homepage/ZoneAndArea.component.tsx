@@ -14,7 +14,7 @@ const ZoneAndAreaComponent: React.FC = () => {
             </p>
           </div>
           <div className={styles.textBox}>
-            <h3>12000+</h3>
+            <h3>15000+</h3>
             <p>
               Sqft
               <br />
