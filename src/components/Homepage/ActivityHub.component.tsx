@@ -2,8 +2,8 @@ import React from "react";
 import styles from "./ActivityHub.component.module.scss";
 import hubLeftIcon from "../../assets/images/hub-top-img.png";
 import hubRightIcon from "../../assets/images/hub-trangle.png";
-import hubBoyimg from "../../assets/images/hub-boy-img.png";
-import hubGirlImg from "../../assets/images/hub-girl-img.png";
+import hubBoyimg from "../../assets/images/activity-hub-new-01.jpg";
+import hubGirlImg from "../../assets/images/activity-hub-new-02.jpg";
 import { Link } from "react-router-dom";
 
 const ActivityHubComponent: React.FC = () => {
