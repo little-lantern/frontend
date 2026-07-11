@@ -1,8 +1,12 @@
 import React from "react";
 import styles from "./Education.component.module.scss";
-import littleBoy from "../../assets/images/little-boy.png";
-import littleBoyWithHands from "../../assets/images/little-boy-with-hands.png";
-import smilingGirl from "../../assets/images/smiling-girl.png";
+// import littleBoy from "../../assets/images/little-boy.png";
+// import littleBoyWithHands from "../../assets/images/little-boy-with-hands.png";
+// import smilingGirl from "../../assets/images/smiling-girl.png";
+import littleBoy from "../../assets/images/home-page-space-05.jpg";
+import littleBoyWithHands from "../../assets/images/home-page-space-03.jpg";
+import smilingGirl from "../../assets/images/home-page-space-04.jpg";
+
 const EducationComponent: React.FC = () => {
   return (
     <div className={styles.container}>

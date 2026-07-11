@@ -16,6 +16,8 @@ import { Swiper as SwiperClass } from "swiper"; // Import Swiper type
 // import sliderImagEleven from "../../assets/images/slider-4-11.jpg";
 // import sliderImagTwelve from "../../assets/images/slider-4-12.jpg";
 // import sliderImagThirteen from "../../assets/images/slider-4-13.jpg";
+import sliderImagZero from "../../assets/images/our-cpace-cart-01.jpg";
+import sliderImagZeroOne from "../../assets/images/our-cpace-cart-02.jpg";
 import sliderImagOne from "../../assets/images/our_space_01.jpg";
 import sliderImagTwo from "../../assets/images/our_space_02.jpg";
 import sliderImagThree from "../../assets/images/our_space_03.jpg";
@@ -28,11 +30,13 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 const data = [
-  { id: 1, imgUrl: sliderImagOne, caption: "Harmony Hub" },
-  { id: 2, imgUrl: sliderImagTwo, caption: "Colour Splash Studio" },
-  { id: 3, imgUrl: sliderImagThree, caption: "Wonder Workshop" },
-  { id: 4, imgUrl: sliderImagFour, caption: "Story Nest" },
-  { id: 5, imgUrl: sliderImagFive, caption: "Innovator’s Lab" },
+  { id: 1, imgUrl: sliderImagZero, caption: "Cart" },
+  { id: 2, imgUrl: sliderImagZeroOne, caption: "Cart" },
+  { id: 3, imgUrl: sliderImagOne, caption: "Harmony Hub" },
+  { id: 4, imgUrl: sliderImagTwo, caption: "Colour Splash Studio" },
+  { id: 5, imgUrl: sliderImagThree, caption: "Wonder Workshop" },
+  { id: 6, imgUrl: sliderImagFour, caption: "Story Nest" },
+  { id: 7, imgUrl: sliderImagFive, caption: "Innovator’s Lab" },
   // { id: 6, imgUrl: sliderImagSix, caption: "Adventure Arena" },
   // { id: 7, imgUrl: sliderImagSeven, caption: "Classroom" },
   // { id: 8, imgUrl: sliderImagEight, caption: "Sand pit" },
@@ -49,7 +53,11 @@ const ImageSliderComponent: React.FC = () => {
         onMouseEnter={() => swiperRef.current?.autoplay.stop()}
         onMouseLeave={() => swiperRef.current?.autoplay.start()}
       >
-        <button className={`${styles.navButton} ${styles.left}`} id="prevSlide" aria-label="Previous slide">
+        <button
+          className={`${styles.navButton} ${styles.left}`}
+          id="prevSlide"
+          aria-label="Previous slide"
+        >
           <img src={prevArrow} alt="" aria-hidden="true" />
         </button>
         <Swiper

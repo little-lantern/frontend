@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./WorkInfo.component.module.scss";
-import BannerContact from "../../assets/images/work-with-contact.png";
+import BannerContact from "../../assets/images/work-with-us-new-01.jpg";
 
 const WorkInfoComponent: React.FC = () => {
   return (

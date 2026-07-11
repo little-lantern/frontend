@@ -17,7 +17,8 @@ import { Swiper as SwiperClass } from "swiper"; // Import Swiper type
 // import sliderImagEleven from "../../assets/images/slider-4-11.jpg";
 // import sliderImagTwelve from "../../assets/images/slider-4-12.jpg";
 // import sliderImagThirteen from "../../assets/images/slider-4-13.jpg";
-
+import sliderImagZero from "../../assets/images/our-cpace-cart-01.jpg";
+import sliderImagZeroOne from "../../assets/images/our-cpace-cart-02.jpg";
 import sliderImagOne from "../../assets/images/our_space_01.jpg";
 import sliderImagTwo from "../../assets/images/our_space_02.jpg";
 import sliderImagThree from "../../assets/images/our_space_03.jpg";
@@ -28,11 +29,13 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 const data = [
-  { id: 1, imgUrl: sliderImagOne },
-  { id: 2, imgUrl: sliderImagTwo },
-  { id: 3, imgUrl: sliderImagThree },
-  { id: 4, imgUrl: sliderImagFour },
-  { id: 5, imgUrl: sliderImagFive },
+  { id: 1, imgUrl: sliderImagZero },
+  { id: 2, imgUrl: sliderImagZeroOne },
+  { id: 3, imgUrl: sliderImagOne },
+  { id: 4, imgUrl: sliderImagTwo },
+  { id: 5, imgUrl: sliderImagThree },
+  { id: 6, imgUrl: sliderImagFour },
+  { id: 7, imgUrl: sliderImagFive },
   // { id: 6, imgUrl: sliderImagSix },
   // { id: 7, imgUrl: sliderImagSeven },
   // { id: 8, imgUrl: sliderImagEight },

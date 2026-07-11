@@ -3,14 +3,12 @@ import styles from "./ActivityCarousel.component.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper as SwiperClass } from "swiper";
-import storyTelling from "../../assets/images/storyTelling.jpg";
-import speechDrama from "../../assets/images/speechDrama.jpg";
-import ballet from "../../assets/images/ballet.jpg";
-import vocalMusic from "../../assets/images/vocalMusic.jpg";
-import artCraft from "../../assets/images/artCraft.jpg";
-import kathak from "../../assets/images/kathak.jpg";
-import phonics from "../../assets/images/phonics.jpg";
-import languageMath from "../../assets/images/languageMath.jpg";
+import sliderImagZero from "../../assets/images/activity-hub-new-01.jpg";
+import sliderImagZeroOne from "../../assets/images/activity-hub-new-02.jpg";
+import sliderImagZeroTwo from "../../assets/images/activity-hub-new-03.jpg";
+import sliderImagZeroThree from "../../assets/images/activity-hub-new-04.jpg";
+import sliderImagZeroFour from "../../assets/images/activity-hub-new-05.jpg";
+import sliderImagZeroFive from "../../assets/images/activity-hub-new-06.jpg";
 
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -64,14 +62,36 @@ const NextArrowIcon = () => (
 );
 
 const carouselImages = [
-  { id: 1, src: storyTelling, alt: "Storytelling class at Little Lantern Activity Hub" },
-  { id: 2, src: speechDrama, alt: "Speech and drama class at Little Lantern Activity Hub" },
-  { id: 3, src: ballet, alt: "Ballet class at Little Lantern Activity Hub" },
-  { id: 4, src: vocalMusic, alt: "Vocal music class at Little Lantern Activity Hub" },
-  { id: 5, src: artCraft, alt: "Art and craft class at Little Lantern Activity Hub" },
-  { id: 6, src: kathak, alt: "Kathak dance class at Little Lantern Activity Hub" },
-  { id: 7, src: phonics, alt: "Phonics class at Little Lantern Activity Hub" },
-  { id: 8, src: languageMath, alt: "Language and math class at Little Lantern Activity Hub" },
+  {
+    id: 1,
+    src: sliderImagZero,
+    alt: "Storytelling class at Little Lantern Activity Hub",
+  },
+  {
+    id: 2,
+    src: sliderImagZeroOne,
+    alt: "Speech and drama class at Little Lantern Activity Hub",
+  },
+  {
+    id: 3,
+    src: sliderImagZeroTwo,
+    alt: "Ballet class at Little Lantern Activity Hub",
+  },
+  {
+    id: 4,
+    src: sliderImagZeroThree,
+    alt: "Vocal music class at Little Lantern Activity Hub",
+  },
+  {
+    id: 5,
+    src: sliderImagZeroFour,
+    alt: "Art and craft class at Little Lantern Activity Hub",
+  },
+  {
+    id: 6,
+    src: sliderImagZeroFive,
+    alt: "Kathak dance class at Little Lantern Activity Hub",
+  },
 ];
 
 const ActivityCarouselComponent: React.FC = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./MissionPhilosophy.component.module.scss";
-import PhilosophyImage from "../../assets/images/about-philosphy-01.png";
-import MissionImage from "../../assets/images/our-mission-01.png";
+import PhilosophyImage from "../../assets/images/about-us-our-philosophy.jpg";
+import MissionImage from "../../assets/images/about-us-our-mission.jpg";
 
 const MissionPhilosophyComponent: React.FC = () => {
   return (

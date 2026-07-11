@@ -2,7 +2,8 @@ import React from "react";
 
 import styles from "./ExplorePlayLearn.component.module.scss";
 import { Link } from "react-router-dom";
-import instaImg from "../../assets/images/explore-kids-img.png";
+// import instaImg from "../../assets/images/explore-kids-img.png";
+import instaImg from "../../assets/images/home-page-footer-image.jpg";
 
 const ExplorePlayLearnComponent: React.FC = () => {
   return (

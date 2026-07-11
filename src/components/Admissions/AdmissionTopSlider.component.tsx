@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import styles from "./AdmissionTopSlider.component.module.scss";
-import admissionSlideOne from "../../assets/images/admission-slide-01.png";
-import admissionSlideTwo from "../../assets/images/admission-slide-02.png";
-import admissionSlideThree from "../../assets/images/admission-slide-03.png";
-import admissionSlideFour from "../../assets/images/admission-slide-04.png";
+import admissionSlideOne from "../../assets/images/admission-new-01.jpg";
+import admissionSlideTwo from "../../assets/images/admission-new-02.jpg";
+import admissionSlideThree from "../../assets/images/admission-new-03.jpg";
+import admissionSlideFour from "../../assets/images/admission-new-04.jpg";
 import nextArrow from "../../assets/images/next-arrow.svg";
 import prevArrow from "../../assets/images/prev-arrow.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -25,7 +25,11 @@ const AdmissionTopSliderComponent: React.FC = () => {
         onMouseEnter={() => swiperRef.current?.autoplay.stop()}
         onMouseLeave={() => swiperRef.current?.autoplay.start()}
       >
-        <button className={`${styles.navButton} ${styles.left}`} id="prevSlide" aria-label="Previous slide">
+        <button
+          className={`${styles.navButton} ${styles.left}`}
+          id="prevSlide"
+          aria-label="Previous slide"
+        >
           <img src={prevArrow} alt="" aria-hidden="true" />
         </button>
         <Swiper
@@ -55,16 +59,32 @@ const AdmissionTopSliderComponent: React.FC = () => {
           }}
         >
           <SwiperSlide>
-            <img src={admissionSlideOne} alt="Children playing at Little Lantern admissions open day" loading="lazy" />
+            <img
+              src={admissionSlideOne}
+              alt="Children playing at Little Lantern admissions open day"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={admissionSlideTwo} alt="Little Lantern campus and learning environment" loading="lazy" />
+            <img
+              src={admissionSlideTwo}
+              alt="Little Lantern campus and learning environment"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={admissionSlideThree} alt="Early learning activities at Little Lantern" loading="lazy" />
+            <img
+              src={admissionSlideThree}
+              alt="Early learning activities at Little Lantern"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={admissionSlideFour} alt="Happy children at Little Lantern preschool" loading="lazy" />
+            <img
+              src={admissionSlideFour}
+              alt="Happy children at Little Lantern preschool"
+              loading="lazy"
+            />
           </SwiperSlide>
         </Swiper>
         <button

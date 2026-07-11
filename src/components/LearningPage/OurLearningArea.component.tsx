@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./OurLearningArea.component.module.scss";
-import ClosePeople from "../../assets/images/playing-with-kids.png";
+import ClosePeople from "../../assets/images/learning-area-new.jpg";
 
 const dataJson = [
   {
@@ -42,7 +42,10 @@ const OurLearningAreaComponent: React.FC = () => {
         <h2 className={styles.title}>Our Learning areas</h2>
         <div className={styles.bannerBox}>
           <div className={styles.bannerImg}>
-            <img src={ClosePeople} alt="Children learning together at Little Lantern" />
+            <img
+              src={ClosePeople}
+              alt="Children learning together at Little Lantern"
+            />
           </div>
           <div className={styles.bannerContent}>
             {dataJson &&

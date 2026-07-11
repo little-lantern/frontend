@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./WorkingAt.component.module.scss";
-import ClosePeople from "../../assets/images/work-with-close-up-people.png";
+import ClosePeople from "../../assets/images/work-with-us-new-02.jpg";
 import ImpactfulWorkIcon from "../../assets/images/work-hand-up-icon.svg";
 import CollaborativeEnvironmentIcon from "../../assets/images/work-three-arrow-icon.svg";
 import ProfessionalGrowthIcon from "../../assets/images/work-mind-icon.svg";

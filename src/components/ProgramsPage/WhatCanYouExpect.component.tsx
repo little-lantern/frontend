@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./WhatCanYouExpect.component.module.scss";
-import OurExpertImag from "../../assets/images/program-expert-img.png";
+// import OurExpertImag from "../../assets/images/program-expert-img.png";
+import OurExpertImag from "../../assets/images/what-can-you-expect.jpg";
 
 const WhatCanYouExpectComponent: React.FC = () => {
   return (
@@ -28,7 +29,10 @@ const WhatCanYouExpectComponent: React.FC = () => {
             </div>
           </div>
           <div className={styles.centerImg}>
-            <img src={OurExpertImag} alt="Little Lantern early childhood expert with children" />
+            <img
+              src={OurExpertImag}
+              alt="Little Lantern early childhood expert with children"
+            />
             <div className={`${styles.box} ${styles.three} `}>
               <strong>3</strong>
               <p>

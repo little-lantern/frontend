@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./MeetOurTeam.component.module.scss";
 import moatTeamOne from "../../assets/images/moat-team-01.png";
-import moatTeamTwo from "../../assets/images/moat-team-02.png";
+import moatTeamTwo from "../../assets/images/about-us-deepa.jpg";
 // import closeIcon from "../../assets/images/team-close-icon.svg";
 
 const teamData = [

@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./Pedagogy.component.module.scss";
-import exploringTimeImg from "../../assets/images/explore-time-img.png";
-import learningTimeImg from "../../assets/images/learning-time-img.png";
+// import exploringTimeImg from "../../assets/images/explore-time-img.png";
+// import learningTimeImg from "../../assets/images/learning-time-img.png";
+
+import exploringTimeImg from "../../assets/images/exploring-time-new.jpg";
+import learningTimeImg from "../../assets/images/learning-time-new.jpg";
 
 const PedagogyComponent: React.FC = () => {
   return (
@@ -20,7 +23,10 @@ const PedagogyComponent: React.FC = () => {
         <div className={styles.imageBoxContent}>
           <div className={`${styles.box} ${styles.left}`}>
             <div className={styles.img}>
-              <img src={exploringTimeImg} alt="Children during exploring time at Little Lantern" />
+              <img
+                src={exploringTimeImg}
+                alt="Children during exploring time at Little Lantern"
+              />
             </div>
             <div className={styles.contentBox}>
               <h3>Exploring Time</h3>
@@ -32,7 +38,10 @@ const PedagogyComponent: React.FC = () => {
           </div>
           <div className={`${styles.box} ${styles.right}`}>
             <div className={styles.img}>
-              <img src={learningTimeImg} alt="Children during learning time at Little Lantern" />
+              <img
+                src={learningTimeImg}
+                alt="Children during learning time at Little Lantern"
+              />
             </div>
             <div className={styles.contentBox}>
               <h3>Learning Time</h3>
