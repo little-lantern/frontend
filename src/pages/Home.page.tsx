@@ -8,7 +8,7 @@ import ZoneAndAreaComponent from "../components/Homepage/ZoneAndArea.component";
 // import VideoEmbedComponent from "../components/Homepage/VideoEmbed.component";
 import LearningsComponent from "../components/Homepage/Learnings.component";
 import ActivityHubComponent from "../components/Homepage/ActivityHub.component";
-import AdmissionComponent from "../components/Homepage/Admission.component";
+// import AdmissionComponent from "../components/Homepage/Admission.component";
 import InstagramFeedComponent from "../components/Homepage/InstagramFeed.component";
 
 const HomePage: React.FC = () => {
@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
       {/* <VideoEmbedComponent /> */}
       <LearningsComponent />
       <ActivityHubComponent />
-      <AdmissionComponent />
+      {/* <AdmissionComponent /> */}
       <InstagramFeedComponent />
     </div>
   );
