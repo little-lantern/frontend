@@ -10,7 +10,6 @@
   .bannerBox {
     display: flex;
     justify-content: baseline;
-    align-items: center;
     padding: 40px 0px;
     border-bottom: solid 1px #7771d7;
 
@@ -27,6 +26,16 @@
       }
     }
     .bannerContent {
+      .bannerTitle {
+        color: #222c5d;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: -2.4px;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+      }
       display: block;
       .description {
         color: #606060;
@@ -82,6 +91,10 @@
       }
       .bannerContent {
         padding: 20px;
+        .bannerTitle {
+          font-size: 32px;
+          padding-bottom: 10px;
+        }
         .description {
           font-size: 16px;
         }

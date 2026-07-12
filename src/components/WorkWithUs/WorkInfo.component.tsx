@@ -11,6 +11,9 @@ const WorkInfoComponent: React.FC = () => {
             <img src={BannerContact} alt="" />
           </div>
           <div className={styles.bannerContent}>
+            <h1 className={styles.bannerTitle}>
+              BE A PART OF A WONDERFUL TEAM
+            </h1>
             <div className={styles.description}>
               At Little Lantern, we believe that every child deserves a
               nurturing environment where they can explore, learn, and grow to
