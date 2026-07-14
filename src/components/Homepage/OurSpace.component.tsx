@@ -7,11 +7,12 @@ const OurSpaceComponent: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <p className={styles.infoCopy}>
-          By day, we nurture young minds as a vibrant preschool, and by evening,
-          we transform into an enriching activity hub. Our greatest strengths
-          lie in our thoughtfully designed spaces, passionate educators, and
-          commitment to igniting curiosity. At Little Lantern, we cultivate
-          confidence, independence, and a deep love for learning in every child.
+          We are an early learning center located in Kolkata, inspired by
+          Finland’s world-renowned early childhood education approach ‘Educare’,
+          where play, exploration, and creativity form the foundation for
+          lifelong learning. By day, we nurture young minds as a vibrant
+          preschool, and by evening, we transform into an enriching activity
+          hub.
         </p>
         <OurSpaceSliderComponent />
         <EducationComponent />
