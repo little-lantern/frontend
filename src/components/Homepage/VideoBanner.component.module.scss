@@ -68,9 +68,13 @@
       gap: 20px;
 
       .mainTitle {
-        font-size: 28px;
-        line-height: 32px;
+        font-size: 24px;
+        line-height: 26px;
         letter-spacing: -1px;
+      }
+      .whiteCta {
+        padding: 5px 15px;
+        font-size: 12px;
       }
     }
   }
