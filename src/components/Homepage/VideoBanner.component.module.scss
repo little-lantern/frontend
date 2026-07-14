@@ -1,0 +1,77 @@
+.container {
+  display: block;
+  position: relative;
+  width: 100%;
+  background: #222c5d;
+
+  .video {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 20px;
+    text-align: center;
+    // subtle scrim so text stays legible over any frame of the video
+    background: rgba(34, 44, 93, 0.35);
+
+    .mainTitle {
+      color: #fff;
+      max-width: 900px;
+      margin: 0;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 100%;
+      letter-spacing: -3.2px;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+    }
+
+    .whiteCta {
+      display: block;
+      border-radius: 12px;
+      color: #fff;
+      border: 1.5px solid #fff;
+      font-family: "Chillax", sans-serif;
+      font-weight: 700;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-decoration: none;
+      transition: transform 0.3s ease-in-out;
+      &:hover {
+        background: #f57a3e;
+        border: 1.5px solid #f57a3e;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    .video {
+      width: 100%;
+      height: auto;
+    }
+
+    .overlay {
+      padding: 16px;
+      gap: 20px;
+
+      .mainTitle {
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: -1px;
+      }
+    }
+  }
+}

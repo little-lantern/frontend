@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HomePage.module.scss";
-import TopBannerComponent from "../components/Homepage/TopBanner.component";
+import VideoBannerComponent from "../components/Homepage/VideoBanner.component";
 import InfoStripComponent from "../components/Homepage/InfoStrip.component";
 import OurSpaceComponent from "../components/Homepage/OurSpace.component";
 import OurProgramsComponents from "../components/Homepage/OurPrograms.component";
@@ -14,7 +14,7 @@ import InstagramFeedComponent from "../components/Homepage/InstagramFeed.compone
 const HomePage: React.FC = () => {
   return (
     <div className={styles.container}>
-      <TopBannerComponent />
+      <VideoBannerComponent />
       <InfoStripComponent />
       <OurSpaceComponent />
       <OurProgramsComponents />
