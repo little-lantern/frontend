@@ -1,10 +1,26 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./VideoBanner.component.module.scss";
 import brandVideo from "../../assets/images/brand_video.mp4";
+import mobileVideo from "../../assets/images/mobile-video.mp4";
+
+const MOBILE_QUERY = "(max-width: 768px)";
 
 const VideoBannerComponent: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [isMobile, setIsMobile] = useState(
+    () =>
+      typeof window !== "undefined" &&
+      window.matchMedia(MOBILE_QUERY).matches
+  );
+
+  // Keep the selected source in sync with viewport size (e.g. device rotation).
+  useEffect(() => {
+    const mql = window.matchMedia(MOBILE_QUERY);
+    const onChange = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+    mql.addEventListener("change", onChange);
+    return () => mql.removeEventListener("change", onChange);
+  }, []);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -33,14 +49,17 @@ const VideoBannerComponent: React.FC = () => {
     };
 
     tryPlay();
-  }, []);
+    // Re-run when the source swaps so the new <video> node also gets forced
+    // muted + the blocked-autoplay fallback.
+  }, [isMobile]);
 
   return (
     <div className={styles.container}>
       <video
         ref={videoRef}
+        key={isMobile ? "mobile" : "desktop"}
         className={styles.video}
-        src={brandVideo}
+        src={isMobile ? mobileVideo : brandVideo}
         autoPlay
         muted
         loop
